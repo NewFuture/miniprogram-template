@@ -9,6 +9,35 @@
                 "ignoreUnits": ["rpx"]
             }
         ],
+        "selector-type-no-unknown": [
+            true,
+            {
+                "ignoreTypes": [
+                    "view",
+                    "/^\\w*-view$/",
+                    "page",
+                    "text",
+                    "icon",
+                    "progress",
+                    "checkbox",
+                    "input",
+                    "radio",
+                    "slider",
+                    "switch",
+                    "audio",
+                    "image",
+                    "video",
+                    "camera",
+                    "live-player",
+                    "live-pusher",
+                    "map",
+                    "canvas",
+                    "open-data",
+                    "official-account"
+                ]
+            }
+        ],
+
         "selector-max-compound-selectors": 3,
         "at-rule-no-vendor-prefix": true,
         "media-feature-name-no-vendor-prefix": true,

@@ -22,17 +22,8 @@
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
         "target": "ES5",
-        "typeRoots": [
-            "node_modules/miniprogram-api-typings"
-        ]
+        "typeRoots": ["node_modules/miniprogram-api-typings"]
     },
-    "include": [
-        "src/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules",
-        "miniprogram_dist",
-        "dist",
-        "**/*.spec.ts"
-    ]
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "miniprogram_dist", "dist", "**/*.spec.ts"]
 }

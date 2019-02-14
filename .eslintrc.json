@@ -51,11 +51,11 @@
         "@typescript-eslint/prefer-function-type": 0
     },
     "globals": {
-        "App": true,
-        "Page": true,
-        "Component": true,
-        "Behavior": true,
-        "wx": true,
-        "getApp": true
+        "App": "readable",
+        "Page": "readable",
+        "Component": "readable",
+        "Behavior": "readable",
+        "wx": "readable",
+        "getApp": "readable"
     }
 }
