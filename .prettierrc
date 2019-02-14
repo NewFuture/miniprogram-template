@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json.schemastore.org/prettierrc",
+    "singleQuote": false,
+    "printWidth": 120,
+    "overrides": [
+        {
+            "files": "*.wxml",
+            "options": { "parser": "html" }
+        },
+        {
+            "files": "*.wxss",
+            "options": { "parser": "css" }
+        },
+        {
+            "files": "*.wxs",
+            "options": { "parser": "flow" }
+        }
+    ]
+}
