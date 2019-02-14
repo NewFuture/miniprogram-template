@@ -25,9 +25,9 @@
         "lint:js": "eslint src/**/*.{ts,js,wxs}",
         "lint:wxss": "stylelint src/**/*.{scss,sass,css,wxss}",
         "lint:wxml": "htmlhint src/**/*.{wxml,html}",
-        "lint-fix": "npm run lint-fix:wxml &&  npm run lint-fix:wxss && npm run lint-fix:js",
+        "lint-fix": "npm run lint-fix:wxss && npm run lint-fix:js && lint-fix:wxml",
         "lint-fix:js": "eslint src/**/*.{ts,js,wxs} --fix",
-        "lint-fix:wxml": "htmlhint src/**/*.{wxml,html} --fix",
+        "lint-fix:wxml": "htmlhint src/**/*.{wxml,html}",
         "lint-fix:wxss": "stylelint src/**/*.{scss,sass,css,wxss} --fix",
         "help": "miniprogram-build -h",
         "test": "npm run lint && npm run build"
