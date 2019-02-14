@@ -9,14 +9,14 @@
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
-        "prettier",
         "plugin:prettier/recommended",
+        "prettier",
+        "prettier/standard",
         "prettier/@typescript-eslint"
     ],
     "rules": {
         "prettier/prettier": "warn",
         "no-console": 0,
-        "comma-style": "warn",
         "@typescript-eslint/generic-type-naming": 1,
         "@typescript-eslint/member-naming": [
             1,

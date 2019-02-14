@@ -21,7 +21,7 @@
         "release:int": "miniprogram-build clean build -c env/int.jsonc --release",
         "release:edog": "miniprogram-build clean build -c env/edog.jsonc --release",
         "release:prod": "miniprogram-build clean build -c env/prod.jsonc --release",
-        "fix": "npm run lint-fix && npm run prettier-fix",
+        "fix": "npm run lint-fix:js && npm run lint-fix:wxss && npm run prettier-fix",
         "prettier": "prettier src/**/* --check",
         "prettier-fix": "prettier src/**/* --write",
         "lint": "npm run lint:js && npm run lint:wxss && npm run lint:wxml && npm run prettier",
@@ -34,6 +34,7 @@
         "lint-fix:wxss": "stylelint src/**/*.{scss,sass,css,wxss} --fix",
         "help": "miniprogram-build -h",
         "stylelint-check": "stylelint-config-prettier-check",
+        "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
         "test": "npm run lint && npm run build"
     },
     "repository": {
