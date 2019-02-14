@@ -1,0 +1,61 @@
+{
+    "root": true,
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "project": "tsconfig.json",
+        "tsconfigRootDir": "./"
+    },
+    "plugins": ["prettier", "@typescript-eslint"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "rules": {
+        "no-console": 0,
+        "semi": 2,
+        "no-extra-semi": 1,
+        "quotes": [
+            1,
+            "double",
+            {
+                "allowTemplateLiterals": true,
+                "avoidEscape": true
+            }
+        ],
+        "@typescript-eslint/generic-type-naming": 1,
+        "@typescript-eslint/member-naming": [
+            1,
+            {
+                "private": "^_"
+            }
+        ],
+        "@typescript-eslint/member-ordering": 1,
+        "@typescript-eslint/no-extraneous-class": [2, {}],
+        "@typescript-eslint/no-this-alias": [
+            1,
+            {
+                "allowedNames": []
+            }
+        ],
+        "@typescript-eslint/no-for-in-array": 1,
+        "@typescript-eslint/no-non-null-assertion": 0,
+        "@typescript-eslint/no-unnecessary-qualifier": 0,
+        "@typescript-eslint/no-unnecessary-type-assertion": [
+            0,
+            {
+                "typesToIgnore": []
+            }
+        ],
+        "@typescript-eslint/prefer-function-type": 0
+    },
+    "globals": {
+        "App": true,
+        "Page": true,
+        "Component": true,
+        "Behavior": true,
+        "wx": true,
+        "getApp": true
+    }
+}

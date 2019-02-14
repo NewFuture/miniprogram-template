@@ -1,0 +1,14 @@
+{
+    "description": "项目配置文件",
+    "packOptions": {
+        "ignore": []
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.4.0",
+    "projectname": "test-ts3",
+    "setting": {
+        "newFeature": true
+    },
+    "appid": "{{APP_ID}}", // 会被自动替换
+    "condition": {}
+}

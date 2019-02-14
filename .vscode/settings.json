@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "dist": false
+    },
+    "search.exclude": {
+        "dist": true,
+        ".vscode": true
+    },
+    "files.associations": {
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "*.wxml": "html",
+        "*.json5": "jsonc",
+        ".htmlhintrc": "json",
+        ".stylelintrc": "json"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html",
+        "wxss": "css"
+    },
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        {
+            "language": "typescript",
+            "autoFix": true
+        }
+    ],
+    "htmlhint.documentSelector": ["html", "wxml"],
+    "prettier.eslintIntegration": true,
+    "prettier.stylelintIntegration": true
+}
