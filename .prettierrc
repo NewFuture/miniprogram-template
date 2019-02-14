@@ -5,14 +5,16 @@
     "useTabs": false,
     "semi": true,
     "singleQuote": false,
+    "bracketSpacing": true,
     "trailingComma": "all",
     "arrowParens": "always",
     "endOfLine": "lf",
     "overrides": [
         {
-            "files": "*.wxml",
+            "files": "*.{wxml,html}",
             "options": {
-                "parser": "angular"
+                "parser": "angular",
+                "htmlWhitespaceSensitivity": "ignore"
             }
         },
         {
