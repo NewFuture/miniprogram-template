@@ -16,6 +16,17 @@
         "no-console": 0,
         "semi": 2,
         "no-extra-semi": 1,
+        "comma-style": "warn",
+        "comma-dangle": [
+            "warn",
+            {
+                "arrays": "always",
+                "objects": "always",
+                "imports": "always",
+                "exports": "always",
+                "functions": "ignore"
+            }
+        ],
         "quotes": [
             1,
             "double",
@@ -50,12 +61,20 @@
         ],
         "@typescript-eslint/prefer-function-type": 0
     },
+    "env": {
+        "es6": true
+    },
     "globals": {
         "App": "readable",
         "Page": "readable",
         "Component": "readable",
         "Behavior": "readable",
         "wx": "readable",
-        "getApp": "readable"
+        "getApp": "readable",
+        "console": "readable",
+        "setTimeout": "readable",
+        "clearTimeout": "readable",
+        "setInterval": "readable",
+        "clearInterval": "readable"
     }
 }
