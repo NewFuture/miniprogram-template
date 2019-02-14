@@ -2,6 +2,7 @@
     "$schema": "http://json.schemastore.org/prettierrc",
     "printWidth": 120,
     "tabWidth": 4,
+    "useTabs": false,
     "semi": true,
     "singleQuote": false,
     "trailingComma": "all",
@@ -11,7 +12,7 @@
         {
             "files": "*.wxml",
             "options": {
-                "parser": "vue"
+                "parser": "angular"
             }
         },
         {
