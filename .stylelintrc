@@ -37,7 +37,6 @@
                 ]
             }
         ],
-
         "selector-max-compound-selectors": 3,
         "at-rule-no-vendor-prefix": true,
         "media-feature-name-no-vendor-prefix": true,

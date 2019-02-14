@@ -1,20 +1,30 @@
 {
     "$schema": "http://json.schemastore.org/prettierrc",
-    "singleQuote": false,
     "printWidth": 120,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
     "trailingComma": "all",
+    "arrowParens": "always",
+    "endOfLine": "lf",
     "overrides": [
         {
             "files": "*.wxml",
-            "options": { "parser": "html" }
+            "options": {
+                "parser": "vue"
+            }
         },
         {
             "files": "*.wxss",
             "options": { "parser": "css" }
         },
         {
+            "files": "*.jsonc",
+            "options": { "parser": "json" }
+        },
+        {
             "files": "*.wxs",
-            "options": { "parser": "flow" }
+            "options": { "parser": "babel" }
         }
     ]
 }
