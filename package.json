@@ -33,6 +33,7 @@
         "lint-fix:wxml": "htmlhint src/**/*.{wxml,html}",
         "lint-fix:wxss": "stylelint src/**/*.{scss,sass,css,wxss} --fix",
         "help": "miniprogram-build -h",
+        "stylelint-check": "stylelint-config-prettier-check",
         "test": "npm run lint && npm run build"
     },
     "repository": {
