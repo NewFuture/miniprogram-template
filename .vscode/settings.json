@@ -30,7 +30,9 @@
             "autoFix": true
         }
     ],
+    // "stylelint.config": null,
     "htmlhint.documentSelector": ["html", "wxml"],
+    "prettier.ignorePath": ".gitignore",
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true
 }
