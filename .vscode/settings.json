@@ -1,9 +1,11 @@
 // Place your settings in this file to overwrite default and user settings.
 {
     "files.exclude": {
-        "dist": false
+        "dist": false,
+        ".vscode": true
     },
     "search.exclude": {
+        "node_modules": true,
         "dist": true,
         ".vscode": true
     },
@@ -30,7 +32,6 @@
             "autoFix": true
         }
     ],
-    // "stylelint.config": null,
     "htmlhint.documentSelector": ["html", "wxml"],
     "prettier.ignorePath": ".gitignore",
     "prettier.eslintIntegration": true,
