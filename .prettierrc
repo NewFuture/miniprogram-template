@@ -22,11 +22,11 @@
             "options": { "parser": "css" }
         },
         {
-            "files": "*.jsonc",
+            "files": "*.{jsonc,cjson}",
             "options": { "parser": "json" }
         },
         {
-            "files": "*.wxs",
+            "files": "*.{wxs,js}",
             "options": { "parser": "flow" }
         }
     ]
