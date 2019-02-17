@@ -4,7 +4,7 @@
 1. create project <新建模板项目>
 要求 npm > 6.0
 ```
-npm init miniprogram template [本地目录]
+npm init miniprogram template [本地目录] -r NewFuture/miniprogram-template
 ```
 不指定则再`本地目录`则在当前目录创建
 
@@ -21,3 +21,5 @@ npm run build
 ```
 
 ## 编辑器
+
+推荐使用`VSCode`
