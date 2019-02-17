@@ -27,7 +27,7 @@
         },
         {
             "files": "*.wxs",
-            "options": { "parser": "babel" }
+            "options": { "parser": "flow" }
         }
     ]
 }

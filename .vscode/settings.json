@@ -15,7 +15,8 @@
         "*.wxml": "html",
         "*.json5": "jsonc",
         ".htmlhintrc": "json",
-        ".stylelintrc": "json"
+        ".stylelintrc": "json",
+        ".prettierrc": "json"
     },
     "emmet.includeLanguages": {
         "wxml": "html",
