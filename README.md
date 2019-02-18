@@ -7,7 +7,8 @@
 ## install <安装>
 
 1. create project <新建模板项目>
-   要求 npm > 6.0
+
+要求 npm > 6.0
 
 ```
 npm init miniprogram template [本地目录] -r NewFuture/miniprogram-template
@@ -44,13 +45,13 @@ npm run build
 
 全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L6-L38)
 
-## 编码 <code>
+## coding <编码>
 
-### 代码
+### language <语音>
 
 #### js
 
--   typescript/JavaScript
+-   typescript/JavaScript (推荐`ts`)
 -   Eslint + Prettier 检查代码风格和自动格式化
 
 #### wxml
@@ -60,7 +61,7 @@ npm run build
 
 #### wxss
 
--   scss/sass/css
+-   scss/sass/css (推荐`scss`)
 -   Stylelint + Prettier 检查代码风格和自动格式化
 
 #### json
@@ -68,7 +69,7 @@ npm run build
 -   jsonc/json/json5 支持注释
 -   Prettier 代码检查和自动格式化
 
-### 编辑器 <Editor>
+### Editor <编辑器>
 
 推荐使用`VSCode`
 
