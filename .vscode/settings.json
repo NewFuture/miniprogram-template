@@ -34,7 +34,7 @@
         }
     ],
     "htmlhint.documentSelector": ["html", "wxml"],
-    "prettier.ignorePath": ".gitignore",
+    "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true
 }
