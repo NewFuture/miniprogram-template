@@ -41,7 +41,7 @@
         "type": "git",
         "url": "https://github.com/NewFuture/miniprogram-template.git"
     },
-    "author": "",
+    "author": "NewFuture",
     "license": "UNLICENSED",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^1.3.0",
@@ -51,7 +51,7 @@
         "eslint-plugin-prettier": "^3.0.1",
         "htmlhint": "^0.10.1",
         "miniprogram-api-typings": "latest",
-        "miniprogram-build": "^3.3.4",
+        "miniprogram-build": "^3.3.8",
         "prettier": "^1.16.4",
         "stylelint": "^9.10.1",
         "stylelint-config-prettier": "^4.0.0",
