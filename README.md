@@ -1,10 +1,10 @@
-## required
+## Required <所需环境>
 
 -   `npm`或者`yarn`
 -   `VSCode` 编辑器
 -   小程序开发工具
 
-## install <安装>
+## Install <安装>
 
 1. create project <新建模板项目>
 
@@ -45,9 +45,9 @@ npm run build
 
 全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L6-L38)
 
-## coding <编码>
+## Coding <编码>
 
-### language <语音>
+### language <语言>
 
 #### js
 
