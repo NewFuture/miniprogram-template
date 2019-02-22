@@ -9,7 +9,7 @@
 1. create project <新建模板项目>
 
 ```
-npm init miniprogram template -r NewFuture/miniprogram-template [本地目录]
+npm init miniprogram NewFuture/miniprogram-template [本地目录]
 ```
 
 不指定`本地目录`则在当前目录创建
