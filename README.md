@@ -1,6 +1,6 @@
 ## Required <所需环境>
 
--   `npm`或者`yarn`
+-   `npm`(版本> 6.0)或者`yarn`
 -   `VSCode` 编辑器
 -   小程序开发工具
 
@@ -8,10 +8,8 @@
 
 1. create project <新建模板项目>
 
-要求 npm > 6.0
-
 ```
-npm init miniprogram template [本地目录] -r NewFuture/miniprogram-template
+npm init miniprogram template -r NewFuture/miniprogram-template [本地目录]
 ```
 
 不指定`本地目录`则在当前目录创建
