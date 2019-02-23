@@ -49,7 +49,7 @@
         "eslint": "^5.14.1",
         "eslint-config-prettier": "^4.0.0",
         "eslint-plugin-prettier": "^3.0.1",
-        "htmlhint": "^0.10.1",
+        "htmlhint": "^0.10.2",
         "miniprogram-api-typings": "latest",
         "miniprogram-build": "^3.3.11",
         "prettier": "^1.16.4",
@@ -57,7 +57,7 @@
         "stylelint-config-prettier": "^4.0.0",
         "stylelint-config-recommended-scss": "^3.2.0",
         "stylelint-prettier": "^1.0.6",
-        "stylelint-scss": "^3.5.3",
+        "stylelint-scss": "^3.5.4",
         "typescript": "^3.3.3333"
     }
 }
