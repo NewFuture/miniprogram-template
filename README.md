@@ -22,10 +22,10 @@ npm init miniprogram NewFuture/miniprogram-template [本地目录]
 npm i
 ```
 
-3. 编译
+3. 运行
 
 ```
-npm run build
+npm start
 ```
 
 4. 调试工具打开`dist`目录即可预览(安装其他 npm 包后需要编译 NPM)
@@ -33,13 +33,13 @@ npm run build
 ### script <命令>
 
 -   `npm run clean`: 清理 dist 目录
--   `npm run dev`: 重新编译项目并实时更新
+-   `npm run start`: 重新编译项目并实时更新[alias `npm start`]
 -   `npm run build`: 重新编译打包(支持三个环境)
 -   `npm run watch`: 仅监测文件变化实时更新(支持三个环境)
 -   `npm run release`: 发布前优化编译打包(支持三个环境)
 -   `npm run lint`: 代码风格和格式检查(支持不同语言单独检查)
 -   `npm run fix`: 自动修复可修复的 lint 和代码风格问题
--   `npm run test`: 测试
+-   `npm run test`: 测试[alias `npm test`]
 
 全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L6-L38)
 

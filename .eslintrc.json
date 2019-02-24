@@ -47,6 +47,7 @@
         "es6": true
     },
     "globals": {
+        "module": "readable",
         "App": "readable",
         "Page": "readable",
         "Component": "readable",

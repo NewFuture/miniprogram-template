@@ -28,6 +28,10 @@
         {
             "files": "*.{wxs,js}",
             "options": { "parser": "flow" }
+        },
+        {
+            "files": "*.wxts",
+            "options": { "parser": "typescript" }
         }
     ]
 }
