@@ -21,7 +21,7 @@ strategy:
     node10:
       node_version: 10.x
     node_stable:
-      node_version: latest
+      node_version: 11.x
 
 steps:
 - task: NodeTool@0
@@ -32,4 +32,4 @@ steps:
 - script: |
     npm install
     npm test
-  displayName: 'npm install and build'
+  displayName: 'npm install and test'
