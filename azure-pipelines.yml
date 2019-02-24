@@ -4,32 +4,37 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- master
-
-
+    - master
+    - prod
+    - "*mater"
+    - master*
 
 pr:
-  autoCancel: true
- 
-pool:
-  vmImage: 'Ubuntu-16.04'
+    autoCancel: true
 
 strategy:
-  matrix:
-    node8:
-      node_version: 8.x
-    node10:
-      node_version: 10.x
-    node_stable:
-      node_version: 11.x
+    matrix:
+        node8:
+            node_version: 8.x
+        node10:
+            node_version: 10.x
+        node_stable:
+            node_version: 11.x
+        mac:
+            imageName: "macos-10.13"
+        windows:
+            imageName: "vs2017-win2016"
+
+pool:
+    vmImage: $(imageName)
 
 steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: $(node_version)
-  displayName: 'Install Node.js'
+    - task: NodeTool@0
+      inputs:
+          versionSpec: $(node_version)
+      displayName: "Install Node.js"
 
-- script: |
-    npm install
-    npm test
-  displayName: 'npm install and test'
+    - script: npm install
+      displayName: "npm install"
+
+    - script: npm test
