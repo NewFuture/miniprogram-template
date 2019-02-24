@@ -21,7 +21,7 @@ strategy:
     node10:
       node_version: 10.x
     node_stable:
-      node_version: stable
+      node_version: latest
 
 steps:
 - task: NodeTool@0
