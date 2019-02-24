@@ -14,15 +14,17 @@ pr:
 
 strategy:
     matrix:
-        node8:
+        # node8_mac:
+        #     node_version: 8.x
+        #     imageName: "macos-10.13"
+        node10_mac:
+            node_version: 10.x
+            imageName: "macos-10.13"
+        node8_win:
             node_version: 8.x
+            imageName: "vs2017-win2016"
         node10:
             node_version: 10.x
-        node_stable:
-            node_version: 11.x
-        mac:
-            imageName: "macos-10.13"
-        windows:
             imageName: "vs2017-win2016"
 
 pool:

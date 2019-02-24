@@ -1,4 +1,9 @@
+# https://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+
 sudo: false
 language: node_js
+node_js:
+    - 10.x
+    - stable
 git:
     depth: 1
