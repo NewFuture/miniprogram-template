@@ -1,5 +1,7 @@
 ## Required <所需环境>
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/NewFuture/miniprogram-template.svg)](https://greenkeeper.io/)
+
 -   `npm`(版本> 6.0)或者`yarn`
 -   `VSCode` 编辑器
 -   小程序开发工具
