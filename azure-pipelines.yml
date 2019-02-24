@@ -4,10 +4,13 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-    - master
-    - prod
-    - "*mater"
-    - master*
+    batch: true
+    branches:
+        include:
+            - master
+            - prod
+            - "*mater"
+            - master*
 
 pr:
     autoCancel: true
@@ -20,9 +23,9 @@ strategy:
         node10_mac:
             node_version: 10.x
             imageName: "macos-10.13"
-        node8_win:
-            node_version: 8.x
-            imageName: "vs2017-win2016"
+        # node8_win:
+        #     node_version: 8.x
+        #     imageName: "vs2017-win2016"
         node10_win:
             node_version: 10.x
             imageName: "vs2017-win2016"
