@@ -12,6 +12,7 @@
     "files.associations": {
         "*.wxss": "css",
         "*.wxs": "javascript",
+        "*.wxts": "typescript",
         "*.wxml": "html",
         "*.json5": "jsonc",
         ".htmlhintrc": "json",

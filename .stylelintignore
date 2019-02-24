@@ -1,3 +1,5 @@
+*.wxts
+
 # Output directory
 dist/
 
