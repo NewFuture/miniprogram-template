@@ -1,6 +1,6 @@
 <!--
-    ${ref.folder}/$module_name/${fileName}.${ref.style}
-    create at $datetime
+ * Page: ${ref.folder}/$module_name/${fileName}
+ * License: ${pkg.license}
+ * Created: ${datetime}
 -->
-
 <view>page: $rawModuleName</view>

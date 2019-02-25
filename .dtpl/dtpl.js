@@ -46,6 +46,10 @@ module.exports = function(source) {
                 },
                 name: "./component/",
             },
+            {
+                name: "./wxts.dtpl", // wxts模板
+                matches: "src/**/*.wxts",
+            },
         ],
         globalData: {
             dollar: "$",

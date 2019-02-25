@@ -1,0 +1,12 @@
+/*!
+ * Module: ${folder}/${fileName}
+ * License: ${pkg.license}
+ * Created: ${datetime}
+ */
+
+/// <reference no-default-lib="true"/>
+/// <reference lib="es5"/>
+
+module.exports = {
+    // es5 module.
+};

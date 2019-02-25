@@ -1,7 +1,8 @@
-/**
-    ${ref.folder}/$module_name/${fileName}.${ref.style}
-    create at $datetime
-*/
+/*!
+ * Component: ${ref.folder}/$module_name/${fileName}
+ * License: ${pkg.license}
+ * Created: ${datetime}
+ */
 
 Component({
     /**
