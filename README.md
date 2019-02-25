@@ -11,31 +11,24 @@
 -   `VSCode` 编辑器
 -   小程序开发工具
 
-## Install <安装>
+## quick start <使用>
 
 1. create project <新建模板项目>
 
 ```
-npm init miniprogram NewFuture/miniprogram-template [本地目录]
+npm create miniprogram NewFuture/miniprogram-template [本地目录]
 ```
 
 不指定`本地目录`则在当前目录创建
 
-2. install dependences <安装依赖>
 
-切换到项目目录，安装项目依赖
-
-```
-npm i
-```
-
-3. 运行
+2. start <在项目文件下运行>
 
 ```
 npm start
 ```
 
-4. 调试工具打开`dist`目录即可预览(安装其他 npm 包后需要编译 NPM)
+3. 调试工具打开`dist`目录即可预览(安装其他 npm 包后需要编译 NPM)
 
 ### script <命令>
 
