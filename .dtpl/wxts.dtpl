@@ -8,5 +8,5 @@
 /// <reference lib="es5"/>
 
 module.exports = {
-    // es5 module.
+    // export functions here as es5 module.
 };
