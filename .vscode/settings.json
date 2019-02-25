@@ -39,5 +39,5 @@
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true,
-    "dot-template-vscode.debug": true
+    "dot-template-vscode.watchFilesGlobPattern": "src/**/*"
 }

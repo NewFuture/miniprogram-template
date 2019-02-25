@@ -31,7 +31,6 @@ module.exports = function(source) {
                 inject: function() {
                     const rawModuleName = data.rawModuleName;
                     const page = [currentFolder, rawModuleName, rawModuleName].join("/");
-
                     // 向 app.json 中注入内容
                     const appJson = path.resolve(data.rootPath, SRC, "app.jsonc");
                     return [{ file: appJson, data: { page: '"' + page + '",' }, tags: "loose", append: true }];
@@ -40,7 +39,10 @@ module.exports = function(source) {
             {
                 // 当在 components 目录下新建一个文件夹时，向这个文件夹内注入 .dtpl/component 下的文件
                 matches: function() {
-                    return source.isDirectory && currentFolder.startsWith("component");
+                    return (
+                        source.isDirectory &&
+                        (currentFolder.toLowerCase() === "component" || currentFolder.toLowerCase() === "components")
+                    );
                 },
                 name: "./component/",
             },
