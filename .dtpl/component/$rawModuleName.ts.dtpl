@@ -1,0 +1,26 @@
+/**
+    ${ref.folder}/$module_name/${fileName}.${ref.style}
+    create at $datetime
+*/
+
+Component({
+    /**
+     * Component properties
+     */
+    properties: {},
+
+    /**
+     * Component initial data [private]
+     */
+    data: {},
+
+    /**
+     * lifecycle of component
+     */
+    lifetimes: {},
+
+    /**
+     * Component methods
+     */
+    methods: {},
+});

@@ -6,6 +6,7 @@
         "dbaeumer.vscode-eslint",
         "mkaufman.htmlhint",
         "shinnn.stylelint",
-        "EditorConfig.EditorConfig"
+        "EditorConfig.EditorConfig",
+        "qiu8310.dot-template-vscode"
     ]
 }

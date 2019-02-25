@@ -2,7 +2,8 @@
 {
     "files.exclude": {
         "dist": false,
-        ".vscode": true
+        ".vscode": true,
+        ".dtpl": true
     },
     "search.exclude": {
         "node_modules": true,
@@ -37,5 +38,6 @@
     "htmlhint.documentSelector": ["html", "wxml"],
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
-    "prettier.stylelintIntegration": true
+    "prettier.stylelintIntegration": true,
+    "dot-template-vscode.debug": true
 }

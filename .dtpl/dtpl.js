@@ -1,0 +1,54 @@
+const path = require("path");
+const SRC = "src";
+
+/**
+ * Convert Windows backslash paths to slash paths
+ * @param {string} input
+ * @returns {string}
+ */
+function slash(input) {
+    const isExtendedLengthPath = /^\\\\\?\\/.test(input);
+    const hasNonAscii = /[^\u0000-\u0080]+/.test(input); // eslint-disable-line no-control-regex
+
+    if (isExtendedLengthPath || hasNonAscii) {
+        return input;
+    }
+
+    return input.replace(/\\/g, "/");
+}
+
+module.exports = function(source) {
+    const data = source.basicData;
+    const currentFolder = slash(path.relative(SRC, path.relative(data.rootPath, data.dirPath)));
+    return {
+        templates: [
+            {
+                // 当在 pages 目录下新建一个文件夹时，向这个文件夹内注入 .dtpl/page 下的文件
+                matches: function() {
+                    return source.isDirectory && currentFolder.startsWith("page");
+                },
+                name: "./page/",
+                inject: function() {
+                    const rawModuleName = data.rawModuleName;
+                    const page = [currentFolder, rawModuleName, rawModuleName].join("/");
+
+                    // 向 app.json 中注入内容
+                    const appJson = path.resolve(data.rootPath, SRC, "app.jsonc");
+                    return [{ file: appJson, data: { page: '"' + page + '",' }, tags: "loose", append: true }];
+                },
+            },
+            {
+                // 当在 components 目录下新建一个文件夹时，向这个文件夹内注入 .dtpl/component 下的文件
+                matches: function() {
+                    return source.isDirectory && currentFolder.startsWith("component");
+                },
+                name: "./component/",
+            },
+        ],
+        globalData: {
+            dollar: "$",
+            style: "scss",
+            folder: currentFolder,
+        },
+    };
+};

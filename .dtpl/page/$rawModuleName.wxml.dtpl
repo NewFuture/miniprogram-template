@@ -1,0 +1,6 @@
+<!--
+    ${ref.folder}/$module_name/${fileName}.${ref.style}
+    create at $datetime
+-->
+
+<view>page: $rawModuleName</view>
