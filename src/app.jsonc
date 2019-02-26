@@ -1,9 +1,8 @@
 {
-    "$schema": "https://raw.githubusercontent.com/qiu8310/minapp/master/schema/app.json",
     "pages": [
+        "pages/index/index",
         /*# INJECT_START {"key": "page"} #*/
         /*# INJECT_END #*/
-        "pages/index/index",
         "pages/logs/logs"
     ],
     "window": {

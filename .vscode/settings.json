@@ -35,9 +35,51 @@
             "autoFix": true
         }
     ],
+    "css.validate": false,
     "htmlhint.documentSelector": ["html", "wxml"],
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true,
-    "dot-template-vscode.watchFilesGlobPattern": "src/**/*"
+    "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
+    "json.schemas": [
+        {
+            "fileMatch": ["app.json", "app.jsonc", "app.json5", "app.cjson"],
+            "url": "https://newfuture.github.io/miniprogram-json-schema/app.json"
+        },
+        {
+            "fileMatch": [
+                "project.config.json",
+                "project.config.jsonc",
+                "project.config.json5",
+                "project.config.cjson"
+            ],
+            "url": "https://newfuture.github.io/miniprogram-json-schema/project.config.json"
+        },
+        {
+            "fileMatch": [
+                "src/pages/**/*.jsonc",
+                "src/pages/**/*.json",
+                "src/pages/**/*.json5",
+                "src/pages/**/*.cjson",
+                "src/page/**/*.jsonc",
+                "src/page/**/*.json",
+                "src/page/**/*.json5",
+                "src/page/**/*.cjson"
+            ],
+            "url": "https://newfuture.github.io/miniprogram-json-schema/page.json"
+        },
+        {
+            "fileMatch": [
+                "src/components/**/*.jsonc",
+                "src/components/**/*.json",
+                "src/components/**/*.json5",
+                "src/components/**/*.cjson",
+                "src/component/**/*.jsonc",
+                "src/component/**/*.json",
+                "src/component/**/*.json5",
+                "src/component/**/*.cjson"
+            ],
+            "url": "https://newfuture.github.io/miniprogram-json-schema/component.json"
+        }
+    ]
 }
