@@ -54,6 +54,7 @@
         "Behavior": "readable",
         "wx": "readable",
         "getApp": "readable",
+        "getCurrentPages": "readable",
         "console": "readable",
         "setTimeout": "readable",
         "clearTimeout": "readable",

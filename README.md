@@ -85,3 +85,8 @@ npm start
 
 -   Azure Pipelines 按需修改 [配置 azure-pipelines.yml](azure-pipelines.yml)
 -   Travis 按需修改[配置文件 .travis.yml](.travis.yml)
+
+## Todo
+
+-   [ ] `stylelint` 解析 wxml inline `style` 模板变量
+-   [ ] `eslint` 开启 `no-unnecessary-type-assertion`

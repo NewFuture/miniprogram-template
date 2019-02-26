@@ -25,6 +25,12 @@
         "wxss": "css"
     },
     "files.trimTrailingWhitespace": true,
+    "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
+    "css.validate": false,
+    "htmlhint.documentSelector": ["html", "wxml"],
+    "prettier.ignorePath": ".prettierignore", // use .prettierignore
+    "prettier.eslintIntegration": true,
+    "prettier.stylelintIntegration": true,
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "eslint.autoFixOnSave": true,
@@ -35,12 +41,6 @@
             "autoFix": true
         }
     ],
-    "css.validate": false,
-    "htmlhint.documentSelector": ["html", "wxml"],
-    "prettier.ignorePath": ".prettierignore", // use .prettierignore
-    "prettier.eslintIntegration": true,
-    "prettier.stylelintIntegration": true,
-    "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
     "json.schemas": [
         {
             "fileMatch": ["app.json", "app.jsonc", "app.json5", "app.cjson"],
