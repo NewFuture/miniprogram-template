@@ -42,7 +42,7 @@
         "url": "https://github.com/NewFuture/miniprogram-template.git"
     },
     "author": "NewFuture",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^1.4.1",
         "@typescript-eslint/parser": "^1.4.1",

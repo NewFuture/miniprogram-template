@@ -7,7 +7,7 @@
 
 ## Required <所需环境>
 
--   `npm`(版本> 6.0)或者`yarn`
+-   `npm`(版本 > 6.0)或者`yarn`
 -   `VSCode` 编辑器
 -   小程序开发工具
 
@@ -21,7 +21,6 @@ npm create miniprogram NewFuture/miniprogram-template [本地目录]
 
 不指定`本地目录`则在当前目录创建
 
-
 2. start <在项目文件下运行>
 
 ```
@@ -32,14 +31,14 @@ npm start
 
 ### script <命令>
 
+-   `npm start`: 重新编译项目并实时更新[alias `npm run start`]
+-   `npm test`: 测试[alias `npm run test`]
 -   `npm run clean`: 清理 dist 目录
--   `npm run start`: 重新编译项目并实时更新[alias `npm start`]
 -   `npm run build`: 重新编译打包(支持三个环境)
 -   `npm run watch`: 仅监测文件变化实时更新(支持三个环境)
 -   `npm run release`: 发布前优化编译打包(支持三个环境)
 -   `npm run lint`: 代码风格和格式检查(支持不同语言单独检查)
 -   `npm run fix`: 自动修复可修复的 lint 和代码风格问题
--   `npm run test`: 测试[alias `npm test`]
 
 全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L6-L38)
 
@@ -49,30 +48,36 @@ npm start
 
 #### js
 
--   typescript/JavaScript (推荐`ts`)
+-   `.ts`(TypeScript) 或 `.js`(JavaScript) (推荐`ts`)
 -   Eslint + Prettier 检查代码风格和自动格式化
 
 #### wxml
 
--   wxml/html
+-   `.wxml` 或 `.html`
 -   Htmlhit + Prettier 检查代码风格和自动格式化
 
 #### wxss
 
--   scss/sass/css (推荐`scss`)
+-   `.scss` ,`.sass`或者`.css` (推荐`scss`)
 -   Stylelint + Prettier 检查代码风格和自动格式化
 
 #### json
 
--   jsonc/json/json5 支持注释
+-   `.jsonc`,`.json`或`.json5` 支持注释
+-   Prettier 代码检查和自动格式化
+
+#### wxs
+
+-   `.wxts`(TypeScript),`.wxs`(JavaScript) (推荐`wxts`)
 -   Prettier 代码检查和自动格式化
 
 ### Editor <编辑器>
 
 推荐使用`VSCode`
 
-1. 首次使用根据提示自动安装相关插件
+1. 首次使用根据提示**自动安装推荐插件**
 2. 所有插件已配置好,会自动进行代码检查提示,保存时自动修复
+3. 新建 `Page`,`Component`,`wxs`会自动生产模板文件([可修改模板](.dtpl/))
 
 ## CI 集成
 
