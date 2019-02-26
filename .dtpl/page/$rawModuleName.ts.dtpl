@@ -1,5 +1,5 @@
 /*!
- * Page: ${ref.folder}/$module_name/${fileName}
+ * Page: ${ref.folder}/$rawModuleName/${ModuleName}
  * License: ${pkg.license}
  * Created: ${datetime}
  */

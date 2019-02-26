@@ -1,5 +1,5 @@
 /*!
- * Component: ${ref.folder}/$module_name/${fileName}
+ * Component: ${ref.folder}/$rawModuleName/index
  * License: ${pkg.license}
  * Created: ${datetime}
  */

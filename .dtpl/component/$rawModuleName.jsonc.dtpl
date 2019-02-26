@@ -1,9 +1,0 @@
-/*!
- * Component: ${ref.folder}/$module_name/${fileName}
- * License: ${pkg.license}
- * Created: ${datetime}
- */
-
-{
-    "$schema": "https://raw.githubusercontent.com/qiu8310/minapp/master/schema/page.json"
-}

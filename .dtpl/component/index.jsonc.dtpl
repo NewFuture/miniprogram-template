@@ -1,0 +1,9 @@
+/*!
+ * Component: ${ref.folder}/$rawModuleName/index
+ * License: ${pkg.license}
+ * Created: ${datetime}
+ */
+
+{
+    "component": true
+}
