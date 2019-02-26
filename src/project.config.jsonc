@@ -5,7 +5,7 @@
     },
     "compileType": "miniprogram",
     "libVersion": "2.4.0",
-    "projectname": "test-ts3",
+    "projectname": "miniprogram-template",
     "setting": {
         "nodeModules": true,
         "newFeature": true
