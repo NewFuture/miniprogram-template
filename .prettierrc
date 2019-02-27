@@ -18,6 +18,13 @@
             }
         },
         {
+            "files": "*.svg",
+            "options": {
+                "parser": "html",
+                "htmlWhitespaceSensitivity": "ignore"
+            }
+        },
+        {
             "files": "*.wxss",
             "options": { "parser": "css" }
         },

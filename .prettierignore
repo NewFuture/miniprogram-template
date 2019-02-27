@@ -1,5 +1,9 @@
 # Output directory
 dist/
+*.jpg
+*.jpeg
+*.gif
+*.png
 
 # Dependency directories
 node_modules/

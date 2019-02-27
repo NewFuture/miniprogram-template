@@ -45,17 +45,21 @@
         "value-no-vendor-prefix": true
     },
     "ignoreFiles": [
-        "src/**/*.wxml",
-        "dist/**/*",
+        "**/*.wxml",
+        "dist/",
         "node_modules/",
-        "jspm_packages/",
-        "bower_components/",
-        "src/**/*.ts",
-        "src/**/*.js",
+        "**/*.ts",
+        "**/*.js",
         "**/*.wxts",
         "**/*.wxs",
         "**/*.jsonc",
+        "**/*.json5",
         "**/*.json",
-        "**/*.dtpl"
+        "**/*.dtpl",
+        "**/*.jpg",
+        "**/*.jpeg",
+        "**/*.png",
+        "**/*.svg",
+        "**/*.gif"
     ]
 }
