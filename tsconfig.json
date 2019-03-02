@@ -22,6 +22,10 @@
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
         "target": "ES5",
+        "baseUrl": "./src" /* Base directory to resolve non-absolute module names. */,
+        "paths": {
+            "/*": ["./*"]
+        },
         "typeRoots": ["node_modules/miniprogram-api-typings"]
     },
     "include": ["src/**/*.ts"],

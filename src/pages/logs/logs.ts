@@ -1,5 +1,5 @@
 //logs.js
-import { formatTime } from "../../utils/util";
+import { formatTime } from "/utils/date"; //支持绝对路径
 
 Page({
     data: {

@@ -50,6 +50,7 @@ npm start
 
 -   `.ts`(TypeScript) 或 `.js`(JavaScript) (推荐`ts`)
 -   Eslint + Prettier 检查代码风格和自动格式化
+-   TS 支持`/`绝对路径 import
 
 #### wxml
 
@@ -60,6 +61,7 @@ npm start
 
 -   `.scss` ,`.sass`或者`.css` (推荐`scss`)
 -   Stylelint + Prettier 检查代码风格和自动格式化
+-   `scss` 可以直接 `@import` assets 目录下内容
 
 #### json
 
