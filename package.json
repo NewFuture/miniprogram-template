@@ -51,7 +51,7 @@
         "eslint-plugin-prettier": "^3.0.1",
         "htmlhint": "^0.11.0",
         "miniprogram-api-typings": "latest",
-        "miniprogram-build": "^3.6.0",
+        "miniprogram-build": "^4.0.0",
         "prettier": "^1.16.4",
         "stylelint": "^9.10.1",
         "stylelint-config-prettier": "^5.0.0",
