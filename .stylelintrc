@@ -33,7 +33,9 @@
                     "map",
                     "canvas",
                     "open-data",
-                    "official-account"
+                    "official-account",
+                    "swiper",
+                    "navigator"
                 ]
             }
         ],

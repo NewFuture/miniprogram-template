@@ -1,9 +1,11 @@
 # miniporgram-template
 
-小程序模板项目
+小程序模板项目(with VS code)
 [![Travis Build Status](https://travis-ci.com/NewFuture/miniprogram-template.svg?branch=master)](https://travis-ci.com/NewFuture/miniprogram-template)
 [![Build Status](https://dev.azure.com/NewFuture-CI/CI/_apis/build/status/NewFuture.miniprogram-template?branchName=master)](https://dev.azure.com/NewFuture-CI/CI/_build/latest?definitionId=1&branchName=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/NewFuture/miniprogram-template.svg)](https://greenkeeper.io/)
+
+使用 [miniprogram-build](https://github.com/NewFuture/miniprogram-build) 工具构建
 
 ## Required <所需环境>
 
@@ -27,7 +29,7 @@ npm create miniprogram NewFuture/miniprogram-template [本地目录]
 npm start
 ```
 
-3. 调试工具打开`dist`目录即可预览(安装其他 npm 包后需要编译 NPM)
+3. 调试工具打开`dist`目录即可预览
 
 ### script <命令>
 
