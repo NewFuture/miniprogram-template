@@ -17,16 +17,20 @@
 
 1. create project <新建模板项目>
 
-```
+```sh
 npm create miniprogram NewFuture/miniprogram-template [本地目录]
+# 或者
+# yarn create miniprogram NewFuture/miniprogram-template [本地目录]
 ```
 
-不指定`本地目录`则在当前目录创建
+> 不指定`本地目录`则在当前目录创建
 
 2. start <在项目文件下运行>
 
-```
+```sh
 npm start
+# 或者
+# yarn start
 ```
 
 3. 调试工具打开`dist`目录即可预览

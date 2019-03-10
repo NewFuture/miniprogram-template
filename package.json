@@ -59,5 +59,8 @@
         "stylelint-prettier": "^1.0.6",
         "stylelint-scss": "^3.5.4",
         "typescript": "^3.3.3333"
+    },
+    "dependencies": {
+        "tslib": "^1.9.3"
     }
 }

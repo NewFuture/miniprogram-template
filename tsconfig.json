@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
         "allowJs": false,
+        "noEmitHelpers": true,
+        "importHelpers": true, // 使用tslib 代替生成
         "alwaysStrict": true,
         "declaration": false,
         "experimentalDecorators": true,
@@ -26,6 +28,7 @@
         "paths": {
             "/*": ["./*"]
         },
+        "lib": ["es5", "es6", "dom"],
         "typeRoots": ["node_modules/miniprogram-api-typings"]
     },
     "include": ["src/**/*.ts"],
