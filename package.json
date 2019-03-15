@@ -35,6 +35,7 @@
         "help": "miniprogram-build -h",
         "stylelint-check": "stylelint-config-prettier-check",
         "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
+        "pretest": "npm run stylelint-check && npm run eslint-check",
         "test": "npm run lint && npm run build"
     },
     "repository": {
@@ -51,7 +52,7 @@
         "eslint-plugin-prettier": "^3.0.1",
         "htmlhint": "^0.11.0",
         "miniprogram-api-typings": "latest",
-        "miniprogram-build": "^5.0.0",
+        "miniprogram-build": "^5.0.1",
         "prettier": "^1.16.4",
         "stylelint": "^9.10.1",
         "stylelint-config-prettier": "^5.0.0",

@@ -47,18 +47,18 @@
         "es6": true
     },
     "globals": {
-        "module": "readable",
-        "App": "readable",
-        "Page": "readable",
-        "Component": "readable",
-        "Behavior": "readable",
-        "wx": "readable",
-        "getApp": "readable",
-        "getCurrentPages": "readable",
-        "console": "readable",
-        "setTimeout": "readable",
-        "clearTimeout": "readable",
-        "setInterval": "readable",
-        "clearInterval": "readable"
+        "module": "readonly",
+        "App": "readonly",
+        "Page": "readonly",
+        "Component": "readonly",
+        "Behavior": "readonly",
+        "wx": "readonly",
+        "getApp": "readonly",
+        "getCurrentPages": "readonly",
+        "console": "readonly",
+        "setTimeout": "readonly",
+        "clearTimeout": "readonly",
+        "setInterval": "readonly",
+        "clearInterval": "readonly"
     }
 }
