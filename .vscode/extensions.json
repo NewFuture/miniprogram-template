@@ -4,9 +4,9 @@
     "recommendations": [
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
-        "mkaufman.htmlhint",
         "shinnn.stylelint",
         "EditorConfig.EditorConfig",
-        "qiu8310.dot-template-vscode"
+        "qiu8310.dot-template-vscode",
+        "newfuture.htmlhint"
     ]
 }
