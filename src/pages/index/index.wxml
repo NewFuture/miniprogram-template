@@ -1,6 +1,6 @@
-<!--index.wxml-->
-<view class="container">
-    <view class="userinfo">
+<!-- index.wxml -->
+<view class="Index">
+    <view class="Index">
         <button wx:if="{{ !hasUserInfo && canIUse }}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
             获取头像昵称
         </button>

@@ -14,7 +14,8 @@
         "*.wxss": "css",
         "*.wxs": "javascript",
         "*.wxts": "typescript",
-        "*.wxml": "html",
+        "*.html": "wxml",
+        "*.wxml": "wxml",
         "*.json5": "jsonc",
         ".htmlhintrc": "json",
         ".stylelintrc": "json",
@@ -25,8 +26,13 @@
         "wxss": "css"
     },
     "files.trimTrailingWhitespace": true,
-    "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "boundary",
+    //关闭自带检查
     "css.validate": false,
+    "html.suggest.html5": false,
+
+    "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
     "htmlhint.documentSelector": ["html", "wxml"],
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
@@ -34,6 +40,10 @@
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "eslint.autoFixOnSave": true,
+    "minapp-vscode.formatMaxLineCharacters": 120,
+    "minapp-vscode.wxmlFormatter": "prettier",
+    "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
+    "minapp-vscode.documentSelector": ["wxml", "html"],
     "eslint.validate": [
         "javascript",
         {

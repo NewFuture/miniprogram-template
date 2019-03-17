@@ -1,3 +1,9 @@
 page {
     background: red;
 }
+
+.Index {
+    &-c {
+        color: gray;
+    }
+}
