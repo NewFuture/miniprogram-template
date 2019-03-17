@@ -6,8 +6,8 @@
         "dbaeumer.vscode-eslint",
         "shinnn.stylelint",
         "EditorConfig.EditorConfig",
-        "qiu8310.dot-template-vscode",
         "qiu8310.minapp-vscode",
+        "qiu8310.dot-template-vscode",
         "newfuture.htmlhint"
     ]
 }
