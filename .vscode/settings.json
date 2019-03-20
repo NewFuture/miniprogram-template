@@ -40,7 +40,6 @@
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "eslint.autoFixOnSave": true,
-    "minapp-vscode.formatMaxLineCharacters": 120,
     "minapp-vscode.wxmlFormatter": "prettier",
     "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
     "minapp-vscode.documentSelector": ["wxml", "html"],
