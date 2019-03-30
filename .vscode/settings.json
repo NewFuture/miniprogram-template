@@ -1,14 +1,14 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "files.exclude": {
-        "dist": false,
-        ".vscode": true,
-        ".dtpl": true
-    },
     "search.exclude": {
         "node_modules": true,
         "dist": true,
         ".vscode": true
+    },
+    "files.exclude": {
+        "dist": false,
+        ".vscode": true,
+        ".dtpl": true
     },
     "files.associations": {
         "*.wxss": "css",
@@ -21,28 +21,36 @@
         ".stylelintrc": "json",
         ".prettierrc": "json"
     },
+    "files.trimTrailingWhitespace": true,
+    // editor
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    // wxml
     "emmet.includeLanguages": {
         "wxml": "html",
         "wxss": "css"
     },
-    "files.trimTrailingWhitespace": true,
-    "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "boundary",
-    //关闭自带检查
     "css.validate": false,
     "html.suggest.html5": false,
-
-    "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
     "htmlhint.documentSelector": ["html", "wxml"],
-    "prettier.ignorePath": ".prettierignore", // use .prettierignore
-    "prettier.eslintIntegration": true,
-    "prettier.stylelintIntegration": true,
-    "editor.formatOnSave": true,
-    "editor.insertSpaces": true,
-    "eslint.autoFixOnSave": true,
+    "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
     "minapp-vscode.wxmlFormatter": "prettier",
     "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
     "minapp-vscode.documentSelector": ["wxml", "html"],
+
+    // prettier
+    "prettier.ignorePath": ".prettierignore", // use .prettierignore
+    "prettier.eslintIntegration": true,
+    "prettier.stylelintIntegration": true,
+
+    // eslint
+    "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
         {
@@ -50,6 +58,7 @@
             "autoFix": true
         }
     ],
+    // json schema
     "json.schemas": [
         {
             "fileMatch": ["app.json", "app.jsonc", "app.json5", "app.cjson"],
@@ -89,6 +98,19 @@
                 "src/component/**/*.cjson"
             ],
             "url": "https://newfuture.github.io/miniprogram-json-schema/component.json"
+        },
+        {
+            "fileMatch": [
+                "env/*.jsonc",
+                "env/*.json",
+                "env/*.json5",
+                "env/*.cjson",
+                "mpconfig.json",
+                "mpconfig.jsonc",
+                ".mpconfig.json",
+                ".mpconfig.jsonc"
+            ],
+            "url": "https://newfuture.github.io/miniprogram-build/config.schema.json"
         }
     ]
 }

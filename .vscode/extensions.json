@@ -5,7 +5,7 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "shinnn.stylelint",
-        "EditorConfig.EditorConfig",
+        "editorconfig.editorconfig",
         "qiu8310.minapp-vscode",
         "qiu8310.dot-template-vscode",
         "mkaufman.htmlhint"
