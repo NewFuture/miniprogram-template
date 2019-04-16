@@ -41,7 +41,8 @@
                 "typesToIgnore": []
             }
         ],
-        "@typescript-eslint/prefer-function-type": 0
+        "@typescript-eslint/prefer-function-type": 0,
+        "@typescript-eslint/explicit-function-return-type": [1, { "allowExpressions": true }]
     },
     "env": {
         "es6": true

@@ -1,7 +1,7 @@
-/* Prod 生产环境配置文件*/
+/* 开发集成环境配置文件*/
 {
     "var": {
-        "APP_ID": "wx_appid_for_production", // 生产环境 小程序 AppID
+        "APP_ID": "wx820b270148861005", // 开发环境 小程序 AppID
         "VERSION": "{{package.version}}" //使用当前package.json中的version字段进行替换
     }
 }

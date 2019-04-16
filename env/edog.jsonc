@@ -1,6 +1,0 @@
-/* Edog 测试环境配置文件*/
-{
-    "var": {
-        "APP_ID": "wx_appid_for_test" // 测试环境 小程序 AppID
-    }
-}

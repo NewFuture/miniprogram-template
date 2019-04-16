@@ -48,6 +48,12 @@ npm start
 
 全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L6-L38)
 
+#### [env](env) <支持环境> (每个环境可进行不同配置包括 appid)
+
+-   `dev` 开发集成环境
+-   `test` 测试环境
+-   `prod` 线上生产环境
+
 ## Coding <编码>
 
 ### language <语言>

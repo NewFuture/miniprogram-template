@@ -22,6 +22,7 @@ async function getUserInfo(): Promise<wx.GetUserInfoSuccessCallbackResult["userI
 
 App<MyApp>({
     onLaunch() {
+        console.log("{{VERSION}}");
         // 展示本地存储能力
         const logs: number[] = wx.getStorageSync("logs") || [];
         logs.unshift(Date.now());
