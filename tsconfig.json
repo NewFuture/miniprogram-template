@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
         "allowJs": false,
+        "alwaysStrict": true,
         "noEmitHelpers": true,
         "importHelpers": true, // 使用tslib 代替生成
-        "alwaysStrict": true,
         "declaration": false,
         "experimentalDecorators": true,
+        "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "inlineSourceMap": true,
         "inlineSources": true,
@@ -23,13 +24,15 @@
         "strict": true,
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
-        "target": "ES5",
-        "baseUrl": "./src" /* Base directory to resolve non-absolute module names. */,
+        "target": "es5",
+        "rootDir": "src/",
+        "baseUrl": "src" /* Base directory to resolve non-absolute module names. */,
+        "outDir": "dist/",
         "paths": {
             "/*": ["./*"]
         },
-        "lib": ["es5", "es6", "dom"],
-        "typeRoots": ["node_modules/miniprogram-api-typings"]
+        "lib": ["es5", "es6"],
+        "typeRoots": ["node_modules/@dragongate/miniprogram-api-typings"]
     },
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules", "miniprogram_dist", "dist", "**/*.spec.ts"]
