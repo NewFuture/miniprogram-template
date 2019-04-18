@@ -4,7 +4,6 @@
  * Created: ${datetime}
  */
 
-/// <reference no-default-lib="true"/>
 /// <reference types="miniprogram-wxs"/>
 
 module.exports = {
