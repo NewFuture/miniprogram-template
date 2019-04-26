@@ -5,7 +5,10 @@
         "project": "tsconfig.json",
         "tsconfigRootDir": "./"
     },
-    "plugins": ["prettier", "@typescript-eslint"],
+    "plugins": [
+        "prettier",
+        "@typescript-eslint"
+    ],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
@@ -16,16 +19,30 @@
     ],
     "rules": {
         "prettier/prettier": "warn",
-        "no-console": 0,
+        "no-console": "warn",
+        "no-dupe-class-members": "off",
+        "require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "FunctionDeclaration": true,
+                    "MethodDefinition": true
+                }
+            }
+        ],
         "@typescript-eslint/generic-type-naming": 1,
         "@typescript-eslint/member-naming": [
             1,
             {
-                "private": "^_"
+                "private": "^_",
+                "public": "^\\$?[a-z][a-zA-Z0-9]*$"
             }
         ],
         "@typescript-eslint/member-ordering": 1,
-        "@typescript-eslint/no-extraneous-class": [2, {}],
+        "@typescript-eslint/no-extraneous-class": [
+            2,
+            {}
+        ],
         "@typescript-eslint/no-this-alias": [
             1,
             {
@@ -42,7 +59,12 @@
             }
         ],
         "@typescript-eslint/prefer-function-type": 0,
-        "@typescript-eslint/explicit-function-return-type": [1, { "allowExpressions": true }]
+        "@typescript-eslint/explicit-function-return-type": [
+            1,
+            {
+                "allowExpressions": true
+            }
+        ]
     },
     "env": {
         "es6": true
@@ -60,6 +82,8 @@
         "setTimeout": "readonly",
         "clearTimeout": "readonly",
         "setInterval": "readonly",
-        "clearInterval": "readonly"
+        "clearInterval": "readonly",
+        "getRegExp": "readonly",
+        "getDate": "readonly"
     }
 }

@@ -1,11 +1,20 @@
 /// <reference types="miniprogram-wxs"/>
 
+/**
+ * 数字格式化
+ * @param n 整数
+ */
 function formatNumber(n: number): string {
     const str = n.toString();
     return str[1] ? str : "0" + str;
 }
 
-function formatTime(date: Date): string {
+/**
+ * 日期格式化
+ * @param dateInput
+ */
+function formatTime(dateInput: Date | string | number): string {
+    const date = typeof dateInput === "object" ? dateInput : getDate(dateInput);
     const year = date.getFullYear();
     const month = date.getMonth() + 1;
     const day = date.getDate();

@@ -6,6 +6,9 @@ export interface MyApp {
     userInfoReadyCallback?(res: wx.UserInfo): void;
 }
 
+/**
+ * 认证
+ */
 function auth(): Promise<wx.GetUserInfoSuccessCallbackResult> {
     return new Promise<wx.GetUserInfoSuccessCallbackResult>((resolve, reject) => {
         wx.getUserInfo({
@@ -15,6 +18,9 @@ function auth(): Promise<wx.GetUserInfoSuccessCallbackResult> {
     });
 }
 
+/**
+ * 获取用户信息
+ */
 async function getUserInfo(): Promise<wx.GetUserInfoSuccessCallbackResult["userInfo"]> {
     const userInfo = await auth();
     return userInfo.userInfo;

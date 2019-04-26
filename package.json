@@ -36,7 +36,7 @@
         "stylelint-check": "stylelint-config-prettier-check",
         "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
         "pretest": "npm run stylelint-check && npm run eslint-check",
-        "test": "npm run lint && npm run build && npm run release"
+        "test": "npm run build && npm run lint && npm run release"
     },
     "repository": {
         "type": "git",
