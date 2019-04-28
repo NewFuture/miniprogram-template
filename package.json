@@ -36,7 +36,7 @@
         "stylelint-check": "stylelint-config-prettier-check",
         "eslint-check": "eslint --print-config . | eslint-config-prettier-check",
         "pretest": "npm run stylelint-check && npm run eslint-check",
-        "test": "npm run lint && npm run build && npm run release"
+        "test": "npm run build && npm run lint && npm run release"
     },
     "repository": {
         "type": "git",
@@ -56,8 +56,8 @@
         "miniprogram-build": "^5.2.1",
         "prettier": "^1.17.0",
         "stylelint": "^10.0.1",
-        "stylelint-config-prettier": "^5.0.0",
-        "stylelint-config-recommended-scss": "^3.2.0",
+        "stylelint-config-prettier": "^5.1.0",
+        "stylelint-config-recommended-scss": "^3.3.0",
         "stylelint-prettier": "^1.0.6",
         "stylelint-scss": "^3.6.0",
         "typescript": "^3.4.5"
