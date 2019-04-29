@@ -22,6 +22,7 @@
         ".prettierrc": "json"
     },
     "files.trimTrailingWhitespace": true,
+
     // editor
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
@@ -32,7 +33,12 @@
         "source.organizeImports": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [100],
+
     // wxml
+    "[wxml]": {
+        "editor.defaultFormatter": "qiu8310.minapp-vscode"
+    },
     "emmet.includeLanguages": {
         "wxml": "html",
         "wxss": "css"

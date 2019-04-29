@@ -5,10 +5,7 @@
         "project": "tsconfig.json",
         "tsconfigRootDir": "./"
     },
-    "plugins": [
-        "prettier",
-        "@typescript-eslint"
-    ],
+    "plugins": ["prettier", "@typescript-eslint"],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
@@ -39,10 +36,7 @@
             }
         ],
         "@typescript-eslint/member-ordering": 1,
-        "@typescript-eslint/no-extraneous-class": [
-            2,
-            {}
-        ],
+        "@typescript-eslint/no-extraneous-class": [2, {}],
         "@typescript-eslint/no-this-alias": [
             1,
             {

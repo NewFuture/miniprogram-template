@@ -14,7 +14,8 @@
             "files": "*.{wxml,html}",
             "options": {
                 "parser": "angular",
-                "htmlWhitespaceSensitivity": "ignore"
+                "htmlWhitespaceSensitivity": "strict",
+                "proseWrap": "never"
             }
         },
         {
@@ -26,19 +27,39 @@
         },
         {
             "files": "*.wxss",
-            "options": { "parser": "css" }
+            "options": {
+                "parser": "css"
+            }
         },
         {
-            "files": "*.{jsonc,cjson}",
-            "options": { "parser": "json" }
+            "files": "*.{jsonc,cjson,json}",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": ".*rc",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": ".npmrc",
+            "options": {
+                "parser": "markdown"
+            }
         },
         {
             "files": "*.{wxs,js}",
-            "options": { "parser": "flow" }
+            "options": {
+                "parser": "babel"
+            }
         },
         {
             "files": "*.wxts",
-            "options": { "parser": "typescript" }
+            "options": {
+                "parser": "typescript"
+            }
         }
     ]
 }
