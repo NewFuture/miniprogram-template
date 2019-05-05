@@ -22,7 +22,6 @@
         ".prettierrc": "json"
     },
     "files.trimTrailingWhitespace": true,
-
     // editor
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
@@ -34,7 +33,6 @@
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.rulers": [100],
-
     // wxml
     "[wxml]": {
         "editor.defaultFormatter": "qiu8310.minapp-vscode"
@@ -50,12 +48,10 @@
     "minapp-vscode.wxmlFormatter": "prettier",
     "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
     "minapp-vscode.documentSelector": ["wxml", "html"],
-
     // prettier
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true,
-
     // eslint
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
@@ -79,6 +75,10 @@
                 "project.config.cjson"
             ],
             "url": "https://newfuture.github.io/miniprogram-json-schema/project.config.json"
+        },
+        {
+            "fileMatch": ["sitemap.json", "sitemap.jsonc", "sitemap.json5", "sitemap.cjson"],
+            "url": "https://newfuture.github.io/miniprogram-json-schema/sitemap.json"
         },
         {
             "fileMatch": [
