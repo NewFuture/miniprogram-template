@@ -21,8 +21,7 @@
         ".stylelintrc": "json",
         ".prettierrc": "json"
     },
-    "files.trimTrailingWhitespace": true,
-
+    "files.trimTrailingWhitespace": false,
     // editor
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
@@ -33,8 +32,9 @@
         "source.organizeImports": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.rulers": [100],
-
+    "editor.rulers": [
+        100
+    ],
     // wxml
     "[wxml]": {
         "editor.defaultFormatter": "qiu8310.minapp-vscode"
@@ -45,17 +45,25 @@
     },
     "css.validate": false,
     "html.suggest.html5": false,
-    "htmlhint.documentSelector": ["html", "wxml"],
+    "htmlhint.documentSelector": [
+        "html",
+        "wxml"
+    ],
     "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
     "minapp-vscode.wxmlFormatter": "prettier",
-    "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
-    "minapp-vscode.documentSelector": ["wxml", "html"],
-
+    "minapp-vscode.styleExtensions": [
+        "wxss",
+        "css",
+        "scss"
+    ],
+    "minapp-vscode.documentSelector": [
+        "wxml",
+        "html"
+    ],
     // prettier
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true,
-
     // eslint
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
@@ -68,7 +76,12 @@
     // json schema
     "json.schemas": [
         {
-            "fileMatch": ["app.json", "app.jsonc", "app.json5", "app.cjson"],
+            "fileMatch": [
+                "app.json",
+                "app.jsonc",
+                "app.json5",
+                "app.cjson"
+            ],
             "url": "https://newfuture.github.io/miniprogram-json-schema/app.json"
         },
         {
@@ -79,6 +92,15 @@
                 "project.config.cjson"
             ],
             "url": "https://newfuture.github.io/miniprogram-json-schema/project.config.json"
+        },
+        {
+            "fileMatch": [
+                "sitemap.json",
+                "sitemap.jsonc",
+                "sitemap.json5",
+                "sitemap.cjson"
+            ],
+            "url": "https://newfuture.github.io/miniprogram-json-schema/sitemap.json"
         },
         {
             "fileMatch": [
