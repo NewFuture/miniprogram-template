@@ -3,12 +3,12 @@
     "search.exclude": {
         "node_modules": true,
         "dist": true,
-        ".vscode": true
+        ".vscode": true,
     },
     "files.exclude": {
         "dist": false,
         ".vscode": true,
-        ".dtpl": true
+        ".dtpl": true,
     },
     "files.associations": {
         "*.wxss": "css",
@@ -19,7 +19,7 @@
         "*.json5": "jsonc",
         ".htmlhintrc": "json",
         ".stylelintrc": "json",
-        ".prettierrc": "json"
+        ".prettierrc": "json",
     },
     "files.trimTrailingWhitespace": true,
     // editor
@@ -29,17 +29,17 @@
     "editor.renderWhitespace": "boundary",
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
-        "source.organizeImports": true
+        "source.organizeImports": true,
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.rulers": [100],
     // wxml
     "[wxml]": {
-        "editor.defaultFormatter": "qiu8310.minapp-vscode"
+        "editor.defaultFormatter": "qiu8310.minapp-vscode",
     },
     "emmet.includeLanguages": {
         "wxml": "html",
-        "wxss": "css"
+        "wxss": "css",
     },
     "css.validate": false,
     "html.suggest.html5": false,
@@ -58,27 +58,27 @@
         "javascript",
         {
             "language": "typescript",
-            "autoFix": true
-        }
+            "autoFix": true,
+        },
     ],
     // json schema
     "json.schemas": [
         {
             "fileMatch": ["app.json", "app.jsonc", "app.json5", "app.cjson"],
-            "url": "https://newfuture.github.io/miniprogram-json-schema/app.json"
+            "url": "https://newfuture.github.io/miniprogram-json-schema/app.json",
         },
         {
             "fileMatch": [
                 "project.config.json",
                 "project.config.jsonc",
                 "project.config.json5",
-                "project.config.cjson"
+                "project.config.cjson",
             ],
-            "url": "https://newfuture.github.io/miniprogram-json-schema/project.config.json"
+            "url": "https://newfuture.github.io/miniprogram-json-schema/project.config.json",
         },
         {
             "fileMatch": ["sitemap.json", "sitemap.jsonc", "sitemap.json5", "sitemap.cjson"],
-            "url": "https://newfuture.github.io/miniprogram-json-schema/sitemap.json"
+            "url": "https://newfuture.github.io/miniprogram-json-schema/sitemap.json",
         },
         {
             "fileMatch": [
@@ -89,9 +89,9 @@
                 "src/page/**/*.jsonc",
                 "src/page/**/*.json",
                 "src/page/**/*.json5",
-                "src/page/**/*.cjson"
+                "src/page/**/*.cjson",
             ],
-            "url": "https://newfuture.github.io/miniprogram-json-schema/page.json"
+            "url": "https://newfuture.github.io/miniprogram-json-schema/page.json",
         },
         {
             "fileMatch": [
@@ -102,9 +102,9 @@
                 "src/component/**/*.jsonc",
                 "src/component/**/*.json",
                 "src/component/**/*.json5",
-                "src/component/**/*.cjson"
+                "src/component/**/*.cjson",
             ],
-            "url": "https://newfuture.github.io/miniprogram-json-schema/component.json"
+            "url": "https://newfuture.github.io/miniprogram-json-schema/component.json",
         },
         {
             "fileMatch": [
@@ -115,9 +115,9 @@
                 "mpconfig.json",
                 "mpconfig.jsonc",
                 ".mpconfig.json",
-                ".mpconfig.jsonc"
+                ".mpconfig.jsonc",
             ],
-            "url": "https://newfuture.github.io/miniprogram-build/config.schema.json"
-        }
-    ]
+            "url": "https://newfuture.github.io/miniprogram-build/config.schema.json",
+        },
+    ],
 }

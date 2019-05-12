@@ -2,6 +2,6 @@
 {
     "var": {
         "APP_ID": "wx_appid_for_test", // 测试环境 小程序 AppID
-        "VERSION": "{{package.version}}" //使用当前package.json中的version字段进行替换
-    }
+        "VERSION": "{{package.version}}", //使用当前package.json中的version字段进行替换
+    },
 }

@@ -32,15 +32,18 @@
             }
         },
         {
-            "files": "*.{jsonc,cjson,json}",
+            "files": [".*rc", "*.json"],
             "options": {
                 "parser": "json"
             }
         },
         {
-            "files": ".*rc",
+            "files": ["*.{jsonc,cjson}", ".vscode/*", "tsconfig.json"],
             "options": {
-                "parser": "json"
+                "parser": "json5",
+                "quoteProps": "preserve",
+                "singleQuote": false,
+                "trailingComma": "all"
             }
         },
         {

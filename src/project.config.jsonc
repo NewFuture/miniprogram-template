@@ -1,15 +1,15 @@
 {
     "description": "项目配置文件",
     "packOptions": {
-        "ignore": []
+        "ignore": [],
     },
     "compileType": "miniprogram",
     "libVersion": "2.4.0",
     "projectname": "miniprogram-template",
     "setting": {
         "nodeModules": true,
-        "newFeature": true
+        "newFeature": true,
     },
     "appid": "{{APP_ID}}", // 会被自动替换
-    "condition": {}
+    "condition": {},
 }

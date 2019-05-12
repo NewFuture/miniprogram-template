@@ -29,11 +29,11 @@
         "baseUrl": "src" /* Base directory to resolve non-absolute module names. */,
         "outDir": "dist/",
         "paths": {
-            "/*": ["./*"]
+            "/*": ["./*"],
         },
         "lib": ["es5", "es6"],
-        "types": ["@dragongate/miniprogram-api-typings"]
+        "types": ["@dragongate/miniprogram-api-typings"],
     },
     "include": ["src/**/*.ts"],
-    "exclude": ["node_modules", "miniprogram_dist", "dist", "**/*.spec.ts"]
+    "exclude": ["node_modules", "miniprogram_dist", "dist", "**/*.spec.ts"],
 }
