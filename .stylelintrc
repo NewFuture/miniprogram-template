@@ -6,9 +6,19 @@
         "selector-max-compound-selectors": 3,
         "at-rule-no-vendor-prefix": true,
         "media-feature-name-no-vendor-prefix": true,
-        "property-no-vendor-prefix": true,
         "selector-no-vendor-prefix": true,
-        "value-no-vendor-prefix": true,
+        "property-no-vendor-prefix": [
+            true,
+            {
+                "ignoreProperties": ["box-orient"]
+            }
+        ],
+        "value-no-vendor-prefix": [
+            true,
+            {
+                "ignoreValues": ["box"]
+            }
+        ],
         "unit-no-unknown": [
             true,
             {
