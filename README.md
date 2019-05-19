@@ -44,10 +44,10 @@ npm start
 -   `npm start`: 重新编译项目并实时更新[alias `npm run start`]
 -   `npm test`: 测试[alias `npm run test`]
 -   `npm run clean`: 清理 dist 目录
--   `npm run build`: 重新编译打包(支持三个环境)
+-   `npm run build`: 编译(支持三个环境)
 -   `npm run watch`: 仅监测文件变化实时更新(支持三个环境)
--   `npm run release`: 发布前优化编译打包(支持三个环境)
--   `npm run lint`: 代码风格和格式检查(支持不同语言单独检查)
+-   `npm run release`: 发布前优化编译重新打包(支持三个环境)
+-   `npm run check`: 代码风格和格式检查(支持不同语言单独检查)
 -   `npm run fix`: 自动修复可修复的 lint 和代码风格问题
 
 全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L6-L38)
