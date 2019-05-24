@@ -46,10 +46,10 @@ npm start
 -   `npm run build`: 打包编译(支持三个环境)
 -   `npm run clean`: 清理 dist 目录
 -   `npm run watch`: 仅监测文件变化实时更新(支持三个环境)
--   `npm run check`: 代码风格和格式检查(支持不同语言单独检查)
+-   `npm run check`: 代码风格和格式检查(支持不同语言单独`lint`检查)
 -   `npm run fix`: 自动修复可修复的 lint 和代码风格问题
 
-全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L6-L38)
+全部快捷命令[package.json](https://github.com/NewFuture/miniprogram-template/blob/master/package.json#L12-L44)
 
 #### Multiple [env](env) [多环境设置]
 
