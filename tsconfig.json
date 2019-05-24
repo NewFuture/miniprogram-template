@@ -18,7 +18,7 @@
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "noUnusedLocals": true,
-        "noUnusedParameters": true,
+        // "noUnusedParameters": true,
         "pretty": true,
         "removeComments": true,
         "strict": true,
