@@ -33,7 +33,14 @@ module.exports = function(source) {
                     const page = [currentFolder, rawModuleName, rawModuleName].join("/");
                     // 向 app.json 中注入内容
                     const appJson = path.resolve(data.rootPath, SRC, "app.jsonc");
-                    return [{ file: appJson, data: { page: '"' + page + '",' }, tags: "loose", append: true }];
+                    return [
+                        {
+                            file: appJson,
+                            data: { page: '"' + page + '",' },
+                            tags: "loose",
+                            append: true,
+                        },
+                    ];
                 },
             },
             {
@@ -41,7 +48,8 @@ module.exports = function(source) {
                 matches: function() {
                     return (
                         source.isDirectory &&
-                        (currentFolder.toLowerCase() === "component" || currentFolder.toLowerCase() === "components")
+                        (currentFolder.toLowerCase() === "component" ||
+                            currentFolder.toLowerCase() === "components")
                     );
                 },
                 name: "./component/",
