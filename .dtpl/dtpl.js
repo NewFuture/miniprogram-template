@@ -39,6 +39,7 @@ module.exports = function(source) {
                             data: { page: '"' + page + '",' },
                             tags: "loose",
                             append: true,
+                            eol: require("os").EOL,
                         },
                     ];
                 },
