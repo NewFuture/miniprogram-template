@@ -10,6 +10,7 @@
     "author": "NewFuture <github@newfuture.cc>",
     "main": "dist/app.js",
     "scripts": {
+        "postinstall": "node postinstall.js",
         "build": "miniprogram-build build -c env/dev.jsonc --release",
         "build:dev": "miniprogram-build build -c env/dev.jsonc --release",
         "build:prod": "miniprogram-build build -c env/prod.jsonc --release",
@@ -47,7 +48,7 @@
     },
     "devDependencies": {
         "@dragongate/miniprogram-api-typings": "^2.7.7",
-        "@types/miniprogram-wxs": "^2.6.0",
+        "@types/miniprogram-wxs": "^2.6.1",
         "@typescript-eslint/eslint-plugin": "^1.10.2",
         "@typescript-eslint/parser": "^1.10.2",
         "eslint": "^5.16.0",
