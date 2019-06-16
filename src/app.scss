@@ -14,7 +14,7 @@
 * import `wxss` 结尾的本地文件，表示使用 小程序的 import
 * 编译时会进行保留, 通常用于仅在特定页面/组件直接共享样式
 */
-// @import "/style/common.wxss"; // 编译之后不便
+// @import url("/style/common.wxss"); // 编译之后不便
 
 .container {
     height: 100%;

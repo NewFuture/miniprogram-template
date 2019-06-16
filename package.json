@@ -43,24 +43,24 @@
         "watch:test": "miniprogram-build watch -c env/test.jsonc"
     },
     "dependencies": {
-        "tslib": "^1.9.3"
+        "tslib": "^1.10.0"
     },
     "devDependencies": {
-        "@dragongate/miniprogram-api-typings": "^2.6.9",
+        "@dragongate/miniprogram-api-typings": "^2.7.7",
         "@types/miniprogram-wxs": "^2.6.0",
-        "@typescript-eslint/eslint-plugin": "^1.9.0",
-        "@typescript-eslint/parser": "^1.9.0",
+        "@typescript-eslint/eslint-plugin": "^1.10.2",
+        "@typescript-eslint/parser": "^1.10.2",
         "eslint": "^5.16.0",
         "eslint-config-prettier": "^4.3.0",
         "eslint-plugin-prettier": "^3.1.0",
         "htmlhint": "^0.11.0",
         "miniprogram-build": "^6.2.1",
-        "prettier": "^1.17.1",
-        "stylelint": "^10.0.1",
+        "prettier": "^1.18.2",
+        "stylelint": "^10.1.0",
         "stylelint-config-prettier": "^5.2.0",
         "stylelint-config-recommended-scss": "^3.3.0",
-        "stylelint-prettier": "^1.1.0",
-        "stylelint-scss": "^3.6.1",
-        "typescript": "^3.4.5"
+        "stylelint-prettier": "^1.1.1",
+        "stylelint-scss": "^3.8.0",
+        "typescript": "^3.5.2"
     }
 }

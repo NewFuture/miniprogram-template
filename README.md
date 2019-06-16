@@ -20,6 +20,10 @@
 
 1. create project [一键创建新项目]
 
+点击 [Use this template ](https://github.com/NewFuture/miniprogram-template/generate) 一键使用此模板项目
+
+或者使用命令行:
+
 ```sh
 # 不指定`[本地目录]`则在当前目录创建,`-n`表示使用最新模板
 npm create miniprogram NewFuture/miniprogram-template -n [本地目录]

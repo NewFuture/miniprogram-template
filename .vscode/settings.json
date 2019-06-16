@@ -48,6 +48,10 @@
     "minapp-vscode.wxmlFormatter": "prettier",
     "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
     "minapp-vscode.documentSelector": ["wxml", "html"],
+    "minapp-vscode.globalStyleFiles": ["src/app.scss"],
+    // "minapp-vscode.sass": {
+    //     "includePaths": ["${workspaceFolder}/src", "${workspaceFolder}/src/assets"],
+    // },
     // prettier
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
