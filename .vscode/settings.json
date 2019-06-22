@@ -52,6 +52,15 @@
     "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
     "minapp-vscode.documentSelector": ["wxml", "html"],
     "minapp-vscode.globalStyleFiles": ["src/app.scss"],
+    "minapp-vscode.selfCloseTags": [],
+    "minapp-vscode.snippets": {
+        "wxml": {
+            "open-data": {
+                // prettier-ignore
+                "body": "<open-data type=\"${1|groupName,userNickName,userAvatarUrl,userGender,userCity,userProvince,userCountry,userLanguage|}\" lang=\"${2|en,zh_CN,zh_TW|}\" ></open-data>$0"
+            },
+        },
+    },
     // "minapp-vscode.sass": {
     //     "includePaths": ["${workspaceFolder}/src", "${workspaceFolder}/src/assets"],
     // },
