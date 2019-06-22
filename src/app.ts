@@ -1,10 +1,6 @@
+import { GlobalData } from "/model/global-data";
+
 //app.ts
-export interface MyApp {
-    globalData: {
-        userInfo?: wx.UserInfo;
-    };
-    userInfoReadyCallback?(res: wx.UserInfo): void;
-}
 
 /**
  * 认证
@@ -26,7 +22,7 @@ async function getUserInfo(): Promise<wx.GetUserInfoSuccessCallbackResult["userI
     return userInfo.userInfo;
 }
 
-App<MyApp>({
+App({
     onLaunch() {
         console.log("{{VERSION}}");
         // 展示本地存储能力
@@ -51,9 +47,6 @@ App<MyApp>({
                 }
             },
         });
-        getUserInfo().then(console.log);
-    },
-    globalData: {
-        userInfo: undefined,
+        getUserInfo().then((res) => (GlobalData.userInfo = res));
     },
 });
