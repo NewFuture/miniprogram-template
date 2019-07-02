@@ -52,6 +52,7 @@
     "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
     "minapp-vscode.documentSelector": ["wxml", "html"],
     "minapp-vscode.globalStyleFiles": ["src/app.scss"],
+    "minapp-vscode.decorateComplexInterpolation": true,
     "minapp-vscode.selfCloseTags": [],
     "minapp-vscode.snippets": {
         "wxml": {
@@ -65,6 +66,7 @@
     //     "includePaths": ["${workspaceFolder}/src", "${workspaceFolder}/src/assets"],
     // },
     // prettier
+
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true,
