@@ -17,7 +17,7 @@ Page({
     },
     onLoad() {
         if (GlobalData.userInfo) {
-            this.setData!({
+            this.setData({
                 userInfo: GlobalData.userInfo,
                 hasUserInfo: true,
             });
@@ -26,7 +26,7 @@ Page({
             wx.getUserInfo({
                 success: (res) => {
                     GlobalData.userInfo = res.userInfo;
-                    this.setData!({
+                    this.setData({
                         userInfo: res.userInfo,
                         hasUserInfo: true,
                     });
@@ -39,7 +39,7 @@ Page({
     getUserInfo(e: any) {
         // console.log(e);
         GlobalData.userInfo = e.detail.userInfo;
-        this.setData!({
+        this.setData({
             userInfo: e.detail.userInfo,
             hasUserInfo: true,
         });

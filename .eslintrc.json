@@ -44,10 +44,10 @@
             }
         ],
         "@typescript-eslint/no-for-in-array": 1,
-        "@typescript-eslint/no-non-null-assertion": 0,
-        "@typescript-eslint/no-unnecessary-qualifier": 0,
+        "@typescript-eslint/no-non-null-assertion": 1,
+        "@typescript-eslint/no-unnecessary-qualifier": 1,
         "@typescript-eslint/no-unnecessary-type-assertion": [
-            0,
+            2,
             {
                 "typesToIgnore": []
             }
