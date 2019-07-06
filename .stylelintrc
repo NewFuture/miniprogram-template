@@ -11,6 +11,8 @@
         "stylelint-config-rational-order"
     ],
     "rules": {
+        "order/properties-order": [],
+        "plugin/rational-order": [true],
         "prettier/prettier": true,
         "selector-max-compound-selectors": 3,
         "at-rule-no-vendor-prefix": true,
