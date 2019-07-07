@@ -83,6 +83,7 @@ npm start
 
 -   `.scss` ,`.sass`或者`.css` (推荐`scss`)
 -   Stylelint + Prettier 检查代码风格和自动格式化
+-   可按指定顺序自动排序css属性
 -   `scss` 可以直接 `@import` assets 目录下内容
 
 #### json
