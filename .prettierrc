@@ -47,12 +47,6 @@
             }
         },
         {
-            "files": ".npmrc",
-            "options": {
-                "parser": "markdown"
-            }
-        },
-        {
             "files": "*.{wxs,js}",
             "options": {
                 "parser": "babel"

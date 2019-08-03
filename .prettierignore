@@ -40,3 +40,5 @@ build/Release
 
 # next.js build output
 .next
+
+.npmrc
