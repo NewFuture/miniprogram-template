@@ -2,10 +2,20 @@
     "root": true,
     "parserOptions": {
         "parser": "@typescript-eslint/parser",
-        "project": "tsconfig.json",
-        "tsconfigRootDir": "./"
+        "project": "tsconfig.json"
     },
-    "plugins": ["prettier", "@typescript-eslint"],
+    "overrides": [
+        {
+            "files": ["src/**/*.wxts"],
+            "parserOptions": {
+                "parser": "@typescript-eslint/parser",
+                "createDefaultProgram ": true,
+                "project": "tsconfig.wxs.json",
+                "extraFileExtensions": [".wxts"]
+            }
+        }
+    ],
+    "plugins": ["@typescript-eslint", "prettier"],
     "extends": [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
@@ -16,8 +26,16 @@
     ],
     "rules": {
         "prettier/prettier": "warn",
-        "no-console": "warn",
+        "no-cond-assign": ["warn", "always"],
         "no-dupe-class-members": "off",
+        "no-console": "warn",
+        "require-atomic-updates": "warn",
+        "sort-vars": [
+            "warn",
+            {
+                "ignoreCase": true
+            }
+        ],
         "require-jsdoc": [
             "error",
             {
@@ -27,34 +45,38 @@
                 }
             }
         ],
-        "@typescript-eslint/generic-type-naming": 1,
+        "prefer-const": "error",
+        "prefer-rest-params": "warn",
+        "@typescript-eslint/generic-type-naming": "warn",
+        "@typescript-eslint/no-namespace": "off",
         "@typescript-eslint/member-naming": [
-            1,
+            "warn",
             {
-                "private": "^_",
+                "private": "^_[a-z][a-zA-Z0-9]*$",
                 "public": "^\\$?[a-z][a-zA-Z0-9]*$"
             }
         ],
-        "@typescript-eslint/member-ordering": 1,
-        "@typescript-eslint/no-extraneous-class": [2, {}],
+        "@typescript-eslint/member-ordering": "warn",
+        "@typescript-eslint/no-empty-function": "warn",
+        "@typescript-eslint/no-extraneous-class": ["error", {}],
         "@typescript-eslint/no-this-alias": [
-            1,
+            "warn",
             {
                 "allowedNames": []
             }
         ],
-        "@typescript-eslint/no-for-in-array": 1,
-        "@typescript-eslint/no-non-null-assertion": 1,
-        "@typescript-eslint/no-unnecessary-qualifier": 1,
+        "@typescript-eslint/no-for-in-array": "warn",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-unnecessary-qualifier": "off",
         "@typescript-eslint/no-unnecessary-type-assertion": [
-            2,
+            "off",
             {
                 "typesToIgnore": []
             }
         ],
-        "@typescript-eslint/prefer-function-type": 0,
+        "@typescript-eslint/prefer-function-type": "off",
         "@typescript-eslint/explicit-function-return-type": [
-            1,
+            "error",
             {
                 "allowExpressions": true
             }
@@ -77,6 +99,7 @@
         "clearTimeout": "readonly",
         "setInterval": "readonly",
         "clearInterval": "readonly",
+        "requirePlugin": "readonly",
         "getRegExp": "readonly",
         "getDate": "readonly"
     }
