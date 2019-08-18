@@ -37,6 +37,15 @@
     "[wxml]": {
         "editor.defaultFormatter": "qiu8310.minapp-vscode",
     },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
     "emmet.includeLanguages": {
         "wxml": "html",
         "wxss": "css",
@@ -48,25 +57,24 @@
     "html.suggest.html5": false,
     "htmlhint.documentSelector": ["html", "wxml"],
     "dot-template-vscode.watchFilesGlobPattern": "src/**/*",
-    "minapp-vscode.wxmlFormatter": "prettier",
-    "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
-    "minapp-vscode.documentSelector": ["wxml", "html"],
-    "minapp-vscode.globalStyleFiles": ["src/app.scss"],
-    "minapp-vscode.decorateComplexInterpolation": true,
-    "minapp-vscode.selfCloseTags": [],
-    "minapp-vscode.snippets": {
-        "wxml": {
-            "open-data": {
-                // prettier-ignore
-                "body": "<open-data type=\"${1|groupName,userNickName,userAvatarUrl,userGender,userCity,userProvince,userCountry,userLanguage|}\" lang=\"${2|en,zh_CN,zh_TW|}\" ></open-data>$0"
-            },
+    "emmet.syntaxProfiles": {
+        "html": {
+            "filters": "html, bem",
+            "self_closing_tag": true,
         },
     },
-    // "minapp-vscode.sass": {
-    //     "includePaths": ["${workspaceFolder}/src", "${workspaceFolder}/src/assets"],
-    // },
+    "minapp-vscode.wxmlFormatter": "prettier",
+    "minapp-vscode.disableDecorate": true,
+    "minapp-vscode.linkAttributeNames": ["src"],
+    "minapp-vscode.globalStyleFiles": ["src/app.scss"],
+    "minapp-vscode.resolveRoots": ["src"],
+    "minapp-vscode.selfCloseTags": ["img"],
+    "minapp-vscode.styleExtensions": ["wxss", "css", "scss"],
+    "minapp-vscode.documentSelector": ["wxml", "html"],
+    "minapp-vscode.snippets": {
+        "wxml": {},
+    },
     // prettier
-
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true,
@@ -86,6 +94,10 @@
             "url": "https://newfuture.github.io/miniprogram-json-schema/app.json",
         },
         {
+            "fileMatch": ["sitemap.json", "sitemap.jsonc", "sitemap.json5", "sitemap.cjson"],
+            "url": "https://newfuture.github.io/miniprogram-json-schema/sitemap.json",
+        },
+        {
             "fileMatch": [
                 "project.config.json",
                 "project.config.jsonc",
@@ -93,10 +105,6 @@
                 "project.config.cjson",
             ],
             "url": "https://newfuture.github.io/miniprogram-json-schema/project.config.json",
-        },
-        {
-            "fileMatch": ["sitemap.json", "sitemap.jsonc", "sitemap.json5", "sitemap.cjson"],
-            "url": "https://newfuture.github.io/miniprogram-json-schema/sitemap.json",
         },
         {
             "fileMatch": [

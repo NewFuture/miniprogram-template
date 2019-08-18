@@ -1,0 +1,14 @@
+{
+    "prettier-ignore": {
+        "scope": "wxml,html",
+        "prefix": ["<!--"],
+        "body": "$BLOCK_COMMENT_START ${1|prettier-ignore-attribute class,prettier-ignore|} $BLOCK_COMMENT_END$0",
+        "description": "prettier ignore attribute",
+    },
+    "prettier-ignore-attribute": {
+        "scope": "html",
+        "prefix": ["prettier-ignore-attribute"],
+        "body": "$BLOCK_COMMENT_START prettier-ignore-attribute ${1|style,class|} $BLOCK_COMMENT_END$0",
+        "description": "prettier ignore attribute",
+    },
+}
