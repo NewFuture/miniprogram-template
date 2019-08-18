@@ -2,11 +2,19 @@
     "root": true,
     "parserOptions": {
         "parser": "@typescript-eslint/parser",
-        "project": "tsconfig.json",
-        "createDefaultProgram ": true,
-        "extraFileExtensions": [".wxts"],
-        "tsconfigRootDir": "./"
+        "project": "tsconfig.json"
     },
+    "overrides": [
+        {
+            "files": ["src/**/*.wxts"],
+            "parserOptions": {
+                "parser": "@typescript-eslint/parser",
+                "createDefaultProgram ": true,
+                "project": "tsconfig.wxs.json",
+                "extraFileExtensions": [".wxts"]
+            }
+        }
+    ],
     "plugins": ["@typescript-eslint", "prettier"],
     "extends": [
         "eslint:recommended",
