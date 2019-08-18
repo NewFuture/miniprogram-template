@@ -51,7 +51,7 @@
         "@types/miniprogram-wxs": "^2.6.2",
         "@typescript-eslint/eslint-plugin": "^2.0.0",
         "@typescript-eslint/parser": "^2.0.0",
-        "eslint": "^5.16.0",
+        "eslint": "^6.2.0",
         "eslint-config-prettier": "^6.0.0",
         "eslint-plugin-prettier": "^3.1.0",
         "htmlhint": "^0.11.0",
