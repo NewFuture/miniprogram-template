@@ -1,0 +1,61 @@
+# SVG 压缩配置文件
+# https://github.com/svg/svgo/blob/master/docs/how-it-works/en.md#1-config
+
+multipass: true
+
+plugins:
+    # - name
+    #
+    # or:
+    # - name: false
+    # - name: true
+    #
+    # or:
+    # - name:
+    #     param1: 1
+    #     param2: 2
+    - addAttributesToSVGElement: false
+    - addClassesToSVGElement: false
+    - cleanupAttrs: true
+    - cleanupEnableBackground: true
+    - cleanupIDs: true
+    - cleanupListOfValues: true
+    - cleanupNumericValues:
+          floatPrecision: 2
+    - collapseGroups: true
+    - convertColors: true
+    - convertPathData: true
+    - convertShapeToPath: true
+    - convertStyleToAttrs: true
+    - convertTransform: true
+    - mergePaths: true
+    - minifyStyles: true
+    - moveElemsAttrsToGroup: true
+    - moveGroupAttrsToElems: true
+    - removeAttrs:
+          attrs:
+              - "data-.*"
+              - "class"
+    - removeComments: true
+    - removeDesc: true
+    - removeDimensions: true
+    - removeDoctype: true
+    - removeEditorsNSData: true
+    - removeElementsByAttr: true
+    - removeEmptyAttrs: true
+    - removeEmptyContainers: true
+    - removeEmptyText: true
+    - removeHiddenElems: true
+    - removeMetadata: true
+    - removeNonInheritableGroupAttrs: true
+    - removeRasterImages: true
+    - removeStyleElement: true
+    - removeTitle: true
+    - removeUnknownsAndDefaults: true
+    - removeUnusedNS: true
+    - removeUselessDefs: true
+    - removeUselessStrokeAndFill: true
+    - removeViewBox: true
+    - removeXMLNS: false
+    - removeXMLProcInst: true
+    - sortAttrs: true
