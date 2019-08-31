@@ -7,4 +7,9 @@ node_js:
     - "10"
     - stable
 git:
-    depth: 1
+    depth: 3
+
+script:
+    - npm install
+    - npm run build --if-present
+    - npm test
