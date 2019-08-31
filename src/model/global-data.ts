@@ -3,5 +3,5 @@
  * use it like a module
  */
 export const GlobalData = {
-    userInfo: undefined as wx.UserInfo | undefined,
+    userInfo: undefined as WechatMiniprogram.UserInfo | undefined,
 };

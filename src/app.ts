@@ -5,8 +5,8 @@ import { GlobalData } from "/model/global-data";
 /**
  * 认证
  */
-function auth(): Promise<wx.GetUserInfoSuccessCallbackResult> {
-    return new Promise<wx.GetUserInfoSuccessCallbackResult>((resolve, reject) => {
+function auth(): Promise<WechatMiniprogram.GetUserInfoSuccessCallbackResult> {
+    return new Promise<WechatMiniprogram.GetUserInfoSuccessCallbackResult>((resolve, reject) => {
         wx.getUserInfo({
             success: resolve,
             fail: reject,
@@ -17,7 +17,9 @@ function auth(): Promise<wx.GetUserInfoSuccessCallbackResult> {
 /**
  * 获取用户信息
  */
-async function getUserInfo(): Promise<wx.GetUserInfoSuccessCallbackResult["userInfo"]> {
+async function getUserInfo(): Promise<
+    WechatMiniprogram.GetUserInfoSuccessCallbackResult["userInfo"]
+> {
     const userInfo = await auth();
     return userInfo.userInfo;
 }

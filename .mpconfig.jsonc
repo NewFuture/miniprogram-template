@@ -1,4 +1,9 @@
-/* 开发集成环境配置文件*/
+/**
+ * 默认(开发环境)配置文件
+ * - 测试环境配置 env/test.jsonc
+ * - 生产环境配置 env/prod.jsonc
+ * 如果无需多环境可删除env
+ */
 {
     "var": {
         // 如果多个环境使用相同appid可以直接写在 src/project.config.jsonc 中

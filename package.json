@@ -47,7 +47,6 @@
         "tslib": "^1.10.0"
     },
     "devDependencies": {
-        "@dragongate/miniprogram-api-typings": "^2.7.15",
         "@types/miniprogram-wxs": "^2.6.2",
         "@typescript-eslint/eslint-plugin": "^2.0.0",
         "@typescript-eslint/parser": "^2.0.0",
@@ -55,6 +54,7 @@
         "eslint-config-prettier": "^6.1.0",
         "eslint-plugin-prettier": "^3.1.0",
         "htmlhint": "^0.11.0",
+        "miniprogram-api-typings": "^2.8.1",
         "miniprogram-build": "^6.6.1",
         "prettier": "^1.18.2",
         "stylelint": "^10.1.0",
@@ -64,6 +64,6 @@
         "stylelint-order": "^3.1.0",
         "stylelint-prettier": "^1.1.1",
         "stylelint-scss": "^3.10.0",
-        "typescript": "^3.5.3"
+        "typescript": "^3.6.2"
     }
 }
