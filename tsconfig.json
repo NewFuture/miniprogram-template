@@ -20,7 +20,7 @@
         "noUnusedLocals": true,
         // "noUnusedParameters": true,
         "pretty": true,
-        "removeComments": true,
+        "removeComments": false,
         "strict": true,
         "strictNullChecks": true,
         "strictPropertyInitialization": true,

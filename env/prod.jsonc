@@ -1,5 +1,9 @@
-/* Prod 生产环境配置文件*/
+/**
+ * Prod 生产环境配置文件
+ * 如果无测试环境 可删除此文件 和 package.json中的 "*:prod" 的命令
+ */
 {
+    "exclude": ["src/wxs/tsconfig.json"],
     "var": {
         "APP_ID": "wx_appid_for_production", // 生产环境 小程序 AppID
         "VERSION": "{{package.version}}", //使用当前package.json中的version字段进行替换

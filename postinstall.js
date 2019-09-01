@@ -17,7 +17,7 @@ const dev = Object.keys(pkg.devDependencies) || [];
  * 删除多余的`@types`文件
  */
 rm(
-    `node_modules/@types/**/*`,
+    "node_modules/@types/**/*",
     {
         glob: {
             ignore: dev.map((s) => `node_modules/${s}/**`),

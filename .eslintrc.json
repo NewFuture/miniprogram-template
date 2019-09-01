@@ -1,16 +1,19 @@
 {
     "root": true,
-    "parserOptions": {
-        "parser": "@typescript-eslint/parser",
-        "project": "tsconfig.json"
-    },
     "overrides": [
+        {
+            "files": ["src/**/*.ts"],
+            "parserOptions": {
+                "parser": "@typescript-eslint/parser",
+                "project": "tsconfig.json"
+            }
+        },
         {
             "files": ["src/**/*.wxts"],
             "parserOptions": {
                 "parser": "@typescript-eslint/parser",
                 "createDefaultProgram ": true,
-                "project": "tsconfig.wxs.json",
+                "project": "src/wxs/tsconfig.json",
                 "extraFileExtensions": [".wxts"]
             }
         }

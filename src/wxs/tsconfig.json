@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.json",
+    "include": ["**/*.wxts"],
+    "exclude": ["**/*.ts"],
+    "compilerOptions": {
+        "experimentalDecorators": false,
+        "esModuleInterop": false,
+        "isolatedModules": true,
+        "lib": null,
+        "noLib": true,
+        "types": ["miniprogram-wxs"],
+        "paths": {},
+    },
+}

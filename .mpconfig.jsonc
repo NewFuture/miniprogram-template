@@ -5,6 +5,7 @@
  * 如果无需多环境可删除env
  */
 {
+    "exclude": ["src/wxs/tsconfig.json"],
     "var": {
         // 如果多个环境使用相同appid可以直接写在 src/project.config.jsonc 中
         "APP_ID": "wx6c863e0126054afa", // 开发环境 小程序 AppID

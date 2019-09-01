@@ -76,8 +76,9 @@
     },
     // prettier
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
-    "prettier.eslintIntegration": true,
+    // "prettier.eslintIntegration": true,
     "prettier.stylelintIntegration": true,
+    "prettier.disableLanguages": ["typescript", "javascript"],
     // eslint
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
