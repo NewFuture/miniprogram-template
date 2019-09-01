@@ -2,10 +2,20 @@
     "root": true,
     "overrides": [
         {
-            "files": ["src/**/*.ts"],
+            "files": ["src/**/*.ts", "src/**/*.wxts"],
             "parserOptions": {
                 "parser": "@typescript-eslint/parser",
                 "project": "tsconfig.json"
+            },
+            "rules": {
+                "@typescript-eslint/no-non-null-assertion": "warn",
+                "@typescript-eslint/no-unnecessary-qualifier": "error",
+                "@typescript-eslint/no-unnecessary-type-assertion": [
+                    "error",
+                    {
+                        "typesToIgnore": []
+                    }
+                ]
             }
         },
         {
@@ -15,6 +25,16 @@
                 "createDefaultProgram ": true,
                 "project": "src/wxs/tsconfig.json",
                 "extraFileExtensions": [".wxts"]
+            },
+            "env": {
+                "es6": false,
+                "commonjs": true
+            },
+            "globals": {
+                "module": "readonly",
+                "getRegExp": "readonly",
+                "getDate": "readonly",
+                "console": "readonly"
             }
         }
     ],
@@ -69,15 +89,7 @@
             }
         ],
         "@typescript-eslint/no-for-in-array": "warn",
-        "@typescript-eslint/no-non-null-assertion": "off",
-        "@typescript-eslint/no-unnecessary-qualifier": "off",
-        "@typescript-eslint/no-unnecessary-type-assertion": [
-            "off",
-            {
-                "typesToIgnore": []
-            }
-        ],
-        "@typescript-eslint/prefer-function-type": "off",
+        "@typescript-eslint/prefer-function-type": "warn",
         "@typescript-eslint/explicit-function-return-type": [
             "error",
             {
@@ -102,8 +114,6 @@
         "clearTimeout": "readonly",
         "setInterval": "readonly",
         "clearInterval": "readonly",
-        "requirePlugin": "readonly",
-        "getRegExp": "readonly",
-        "getDate": "readonly"
+        "requirePlugin": "readonly"
     }
 }

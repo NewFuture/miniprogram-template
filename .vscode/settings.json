@@ -37,8 +37,11 @@
     "[wxml]": {
         "editor.defaultFormatter": "qiu8310.minapp-vscode",
     },
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    },
     "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
