@@ -37,7 +37,7 @@
         "lint:wxss": "stylelint \"src/**/*\"",
         "prettier": "prettier src/**/* --check",
         "prettier-fix": "prettier src/**/* --write",
-        "eslint-check": "eslint --print-config sr/app.ts | eslint-config-prettier-check",
+        "eslint-check": "eslint --print-config src/app.ts | eslint-config-prettier-check",
         "stylelint-check": "stylelint-config-prettier-check",
         "pretest": "npm run stylelint-check && npm run eslint-check",
         "test": "npm run check",
