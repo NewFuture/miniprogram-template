@@ -1,5 +1,6 @@
 # [miniprogram-template](https://github.com/NewFuture/miniprogram-template)
 
+[![Github Actions Status](https://github.com/NewFuture/miniprogram-template/workflows/Node%20CI/badge.svg)](https://github.com/NewFuture/miniprogram-template/actions)
 [![Travis Build Status](https://travis-ci.com/NewFuture/miniprogram-template.svg?branch=master)](https://travis-ci.com/NewFuture/miniprogram-template)
 [![Build Status](https://dev.azure.com/NewFuture-CI/CI/_apis/build/status/NewFuture.miniprogram-template?branchName=master)](https://dev.azure.com/NewFuture-CI/CI/_build/latest?definitionId=1&branchName=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/NewFuture/miniprogram-template.svg)](https://greenkeeper.io/)
