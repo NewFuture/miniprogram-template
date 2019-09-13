@@ -40,7 +40,7 @@
         "eslint-check": "eslint --print-config src/app.ts | eslint-config-prettier-check",
         "stylelint-check": "stylelint-config-prettier-check",
         "pretest": "npm run stylelint-check && npm run eslint-check",
-        "test": "npm run check",
+        "test": "npm run build && npm run check",
         "postinstall": "node postinstall.js"
     },
     "dependencies": {
@@ -48,14 +48,14 @@
     },
     "devDependencies": {
         "@types/miniprogram-wxs": "^2.6.2",
-        "@typescript-eslint/eslint-plugin": "^2.0.0",
-        "@typescript-eslint/parser": "^2.0.0",
+        "@typescript-eslint/eslint-plugin": "^2.2.0",
+        "@typescript-eslint/parser": "^2.2.0",
         "eslint": "^6.3.0",
-        "eslint-config-prettier": "^6.1.0",
+        "eslint-config-prettier": "^6.3.0",
         "eslint-plugin-prettier": "^3.1.0",
         "htmlhint": "^0.11.0",
-        "miniprogram-api-typings": "^2.8.1",
-        "miniprogram-build": "^6.6.1",
+        "miniprogram-api-typings": "^2.8.2",
+        "miniprogram-build": "^6.8.0",
         "prettier": "^1.18.2",
         "stylelint": "^10.1.0",
         "stylelint-config-prettier": "^5.2.0",
@@ -63,7 +63,7 @@
         "stylelint-config-recommended-scss": "^3.3.0",
         "stylelint-order": "^3.1.0",
         "stylelint-prettier": "^1.1.1",
-        "stylelint-scss": "^3.10.0",
-        "typescript": "^3.6.2"
+        "stylelint-scss": "^3.10.1",
+        "typescript": "^3.6.3"
     }
 }
