@@ -41,6 +41,7 @@
         "stylelint-check": "stylelint-config-prettier-check",
         "pretest": "npm run stylelint-check && npm run eslint-check",
         "test": "npm run build && npm run check",
+        "postversion": "git push --follow-tags",
         "postinstall": "node postinstall.js"
     },
     "dependencies": {
