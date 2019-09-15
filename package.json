@@ -58,7 +58,7 @@
         "miniprogram-api-typings": "^2.8.2",
         "miniprogram-build": "^6.8.0",
         "prettier": "^1.18.2",
-        "stylelint": "^10.1.0",
+        "stylelint": "^11.0.0",
         "stylelint-config-prettier": "^5.2.0",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-config-recommended-scss": "^3.3.0",
