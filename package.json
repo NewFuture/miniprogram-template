@@ -61,7 +61,7 @@
         "stylelint": "^10.1.0",
         "stylelint-config-prettier": "^6.0.0",
         "stylelint-config-rational-order": "^0.1.2",
-        "stylelint-config-recommended-scss": "^3.3.0",
+        "stylelint-config-recommended-scss": "^4.0.0",
         "stylelint-order": "^3.1.0",
         "stylelint-prettier": "^1.1.1",
         "stylelint-scss": "^3.10.1",
