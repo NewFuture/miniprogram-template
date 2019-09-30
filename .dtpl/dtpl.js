@@ -33,10 +33,26 @@ module.exports = function(source) {
                     const page = [currentFolder, rawModuleName, rawModuleName].join("/");
                     // 向 app.json 中注入内容
                     const appJson = path.resolve(data.rootPath, SRC, "app.jsonc");
+                    const projectJson = path.resolve(data.rootPath, SRC, "project.config.jsonc");
                     return [
                         {
                             file: appJson,
                             data: { page: '"' + page + '",' },
+                            tags: "loose",
+                            append: true,
+                            eol: require("os").EOL,
+                        },
+                        {
+                            file: projectJson,
+                            data: {
+                                page: `{
+    "id": ${Math.round((Date.now() % 100000000000) / 1000)},
+    "name": "${rawModuleName}",
+    "pathName": "${page}",
+    "query": "",
+    "scene": null,
+},`,
+                            },
                             tags: "loose",
                             append: true,
                             eol: require("os").EOL,

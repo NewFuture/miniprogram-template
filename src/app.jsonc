@@ -2,8 +2,8 @@
     "pages": [
         "pages/index/index",
         /*# INJECT_START {"key": "page"} #*/
-        /*# INJECT_END #*/
         "pages/logs/logs",
+        /*# INJECT_END #*/
     ],
     "window": {
         "backgroundTextStyle": "light",

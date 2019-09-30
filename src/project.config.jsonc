@@ -11,5 +11,13 @@
         "newFeature": true,
     },
     "appid": "{{APP_ID}}", // 会被自动替换
-    "condition": {},
+    "condition": {
+        "miniprogram": {
+            "list": [
+                // 下面为自动添加的新建页面
+                /*# INJECT_START {"key": "page"} #*/
+                /*# INJECT_END #*/
+            ],
+        },
+    },
 }
