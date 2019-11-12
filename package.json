@@ -49,22 +49,22 @@
     },
     "devDependencies": {
         "@types/miniprogram-wxs": "^2.6.2",
-        "@typescript-eslint/eslint-plugin": "^2.6.0",
-        "@typescript-eslint/parser": "^2.6.0",
+        "@typescript-eslint/eslint-plugin": "^2.7.0",
+        "@typescript-eslint/parser": "^2.7.0",
         "eslint": "^6.6.0",
         "eslint-config-prettier": "^6.5.0",
         "eslint-plugin-prettier": "^3.1.0",
         "htmlhint": "^0.11.0",
-        "miniprogram-api-typings": "^2.9.0",
+        "miniprogram-api-typings": "^2.9.1",
         "miniprogram-build": "^6.8.6",
-        "prettier": "^1.18.2",
+        "prettier": "^1.19.1",
         "stylelint": "^11.1.1",
         "stylelint-config-prettier": "^6.0.0",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-config-recommended-scss": "^4.0.0",
         "stylelint-order": "^3.1.0",
         "stylelint-prettier": "^1.1.1",
-        "stylelint-scss": "^3.12.0",
-        "typescript": "^3.6.4"
+        "stylelint-scss": "^3.12.1",
+        "typescript": "^3.7.2"
     }
 }
