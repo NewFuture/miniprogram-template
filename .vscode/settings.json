@@ -80,9 +80,10 @@
     // prettier
     "prettier.ignorePath": ".prettierignore", // use .prettierignore
     // "prettier.eslintIntegration": true,
-    "prettier.stylelintIntegration": true,
+    // "prettier.stylelintIntegration": true,
     "prettier.disableLanguages": ["typescript", "javascript"],
     // eslint
+    "stylelint.autoFix": true,
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
