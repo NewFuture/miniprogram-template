@@ -4,7 +4,7 @@
     "recommendations": [
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
-        "shinnn.stylelint",
+        "stuartzhang.stylelint-stzhang",
         "editorconfig.editorconfig",
         "qiu8310.minapp-vscode",
         "qiu8310.dot-template-vscode",
