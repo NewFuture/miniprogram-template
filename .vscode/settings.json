@@ -83,15 +83,7 @@
     // "prettier.stylelintIntegration": true,
     "prettier.disableLanguages": ["typescript", "javascript"],
     // eslint
-    "stylelint.autoFix": true,
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-        "javascript",
-        {
-            "language": "typescript",
-            "autoFix": true,
-        },
-    ],
+    "eslint.validate": ["javascript", "typescript"],
     // json schema
     "json.schemas": [
         {
