@@ -50,7 +50,7 @@
     "devDependencies": {
         "@types/miniprogram-wxs": "^2.6.2",
         "@typescript-eslint/eslint-plugin": "^2.24.0",
-        "@typescript-eslint/parser": "^2.14.0",
+        "@typescript-eslint/parser": "^2.24.0",
         "eslint": "^6.8.0",
         "eslint-config-prettier": "^6.9.0",
         "eslint-plugin-prettier": "^3.1.2",
