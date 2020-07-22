@@ -45,7 +45,7 @@
         "postinstall": "node postinstall.js"
     },
     "dependencies": {
-        "tslib": "^1.10.0"
+        "tslib": "^2.0.0"
     },
     "devDependencies": {
         "@types/miniprogram-wxs": "^2.6.2",
@@ -56,7 +56,7 @@
         "eslint-plugin-prettier": "^3.1.2",
         "htmlhint": "^0.11.0",
         "miniprogram-api-typings": "^2.9.4",
-        "miniprogram-build": "^6.8.6",
+        "miniprogram-build": "^7.0.0",
         "prettier": "^1.19.1",
         "stylelint": "^13.1.0",
         "stylelint-config-prettier": "^8.0.0",
