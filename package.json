@@ -45,7 +45,7 @@
         "postinstall": "node postinstall.js"
     },
     "dependencies": {
-        "tslib": "^1.10.0"
+        "tslib": "^2.0.0"
     },
     "devDependencies": {
         "@types/miniprogram-wxs": "^2.6.2",
@@ -54,15 +54,15 @@
         "eslint": "^6.8.0",
         "eslint-config-prettier": "^6.9.0",
         "eslint-plugin-prettier": "^3.1.2",
-        "htmlhint": "^0.11.0",
+        "htmlhint": "^0.12.0",
         "miniprogram-api-typings": "^2.9.4",
-        "miniprogram-build": "^6.8.6",
+        "miniprogram-build": "^7.0.0",
         "prettier": "^1.19.1",
         "stylelint": "^13.1.0",
         "stylelint-config-prettier": "^8.0.0",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-config-recommended-scss": "^4.0.0",
-        "stylelint-order": "^3.1.0",
+        "stylelint-order": "^4.1.0",
         "stylelint-prettier": "^1.1.2",
         "stylelint-scss": "^3.12.1",
         "typescript": "^3.7.4"

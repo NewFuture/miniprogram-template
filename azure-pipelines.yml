@@ -21,18 +21,18 @@ pr:
 
 strategy:
     matrix:
-        # node8_mac:
-        #     node_version: 8.x
-        #     imageName: "macos-10.13"
+        node12_mac:
+            node_version: 12.x
+            imageName: "macOS-latest"
         node10_mac:
             node_version: 10.x
-            imageName: "macos-10.13"
-        # node8_win:
-        #     node_version: 8.x
-        #     imageName: "vs2017-win2016"
+            imageName: "macOS-latest"
+        windows:
+            node_version: 12.x
+            imageName: "windows-latest"
         node10_win:
             node_version: 10.x
-            imageName: "vs2017-win2016"
+            imageName: "windows-latest"
 
 pool:
     vmImage: $(imageName)
