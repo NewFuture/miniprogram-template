@@ -3,7 +3,6 @@
 [![Github Actions Status](https://github.com/NewFuture/miniprogram-template/workflows/Node%20CI/badge.svg)](https://github.com/NewFuture/miniprogram-template/actions)
 [![Travis Build Status](https://travis-ci.com/NewFuture/miniprogram-template.svg?branch=master)](https://travis-ci.com/NewFuture/miniprogram-template)
 [![Build Status](https://dev.azure.com/NewFuture-CI/CI/_apis/build/status/NewFuture.miniprogram-template?branchName=master)](https://dev.azure.com/NewFuture-CI/CI/_build/latest?definitionId=1&branchName=master)
-[![Greenkeeper badge](https://badges.greenkeeper.io/NewFuture/miniprogram-template.svg)](https://greenkeeper.io/)
 
 > A wechat miniprogram template project the best practice with TypeScript and VSCode
 >
@@ -13,7 +12,7 @@
 
 ## Required [所需环境]
 
--   nodejs: `npm` >= 6.0(或者`yarn`)
+-   nodejs: `npm` >= 6.0(或者`yarn`) `Node` >= 10
 -   Editor: VSCode
 -   Wechat-Devtools: 小程序开发工具 (并开启`服务端口`)
 
@@ -21,9 +20,7 @@
 
 1. create project [一键创建新项目]
 
-点击 [Use this template ](https://github.com/NewFuture/miniprogram-template/generate) 一键使用此模板项目
-
-或者使用命令行:
+点击 [Use this template](https://github.com/NewFuture/miniprogram-template/generate) 一键使用此模板项，目或者使用命令行:
 
 ```sh
 # 不指定`[本地目录]`则在当前目录创建,`-n`表示使用最新模板
@@ -35,12 +32,13 @@ npm create miniprogram NewFuture/miniprogram-template -n [本地目录]
 2. start [在项目文件下运行]
 
 ```sh
+#cd [本地目录名]
 npm start
 # 或者
 # yarn start
 ```
 
-3. 调试工具打开`dist`目录即可预览
+正常启动后调试工具会自动打开`dist`预览
 
 ### Script [命令]
 
